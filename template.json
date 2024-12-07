@@ -3,10 +3,17 @@
         "gra": "gra1",
         "dania": [
             {
-                "name": "jedzenie",
-                "tags": [
-                    "tag1", "tag2"
-                ]
+            "name": "jedzenie",
+            "skladniki": "sklad",
+            "opis": "",
+            "narzedia": "",
+            "AGD": "",
+            "czas": "",
+            "przygotowanie": "",
+            "obraz": "",
+            "tags": [
+                "tag1", "tag2"
+            ]
             }
         ]
     }
