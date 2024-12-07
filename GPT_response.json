@@ -1,0 +1,84 @@
+[
+    {
+        "gra": "Stardew Valley",
+        "dania": [
+            {
+                "name": "Szczęśliwy Lunch",
+                "skladniki": "Ogórek morski, Tortilla, Błękitny Jazz",
+                "opis": "Specjalny mały posiłek.",
+                "narzedia": "Kuchenka",
+                "AGD": "",
+                "czas": "",
+                "przygotowanie": "",
+                "obraz": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Lucky_Lunch.png",
+                "tags": []
+            },
+            {
+                "name": "Przekąska z Pola",
+                "skladniki": "Żołądź, Nasiono Klonu, Szyszka Sosnowa",
+                "opis": "Szybka przekąska dla głodnego zbieracza.",
+                "narzedia": "Brak",
+                "AGD": "",
+                "czas": "",
+                "przygotowanie": "",
+                "obraz": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Field_Snack.png",
+                "tags": []
+            },
+            {
+                "name": "Mango z Lepkim Ryżem",
+                "skladniki": "Mango, Kokos, Ryż",
+                "opis": "Słodkie mango i kokos zamieniają ryż w coś wyjątkowego.",
+                "narzedia": "Kuchenka",
+                "AGD": "",
+                "czas": "",
+                "przygotowanie": "",
+                "obraz": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Mango_Sticky_Rice.png",
+                "tags": []
+            },
+            {
+                "name": "Koktajl Krewetkowy",
+                "skladniki": "Pomidor, Krewetka, Dziki Chrzan",
+                "opis": "Wykwintna przystawka z świeżo złowionych krewetek.",
+                "narzedia": "Kuchenka",
+                "AGD": "",
+                "czas": "",
+                "przygotowanie": "",
+                "obraz": "https://stardewvalleywiki.com/mediawiki/images/8/8e/Shrimp_Cocktail.png",
+                "tags": []
+            },
+            {
+                "name": "Pikantny Węgorz",
+                "skladniki": "Węgorz, Ostra Papryka",
+                "opis": "Bardzo pikantne! Uważaj.",
+                "narzedia": "Kuchenka",
+                "AGD": "",
+                "czas": "",
+                "przygotowanie": "",
+                "obraz": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Spicy_Eel.png",
+                "tags": []
+            },
+            {
+                "name": "Potrójne Espresso",
+                "skladniki": "Kawa",
+                "opis": "Mocniejsze niż zwykła kawa!",
+                "narzedia": "Kuchenka",
+                "AGD": "",
+                "czas": "",
+                "przygotowanie": "",
+                "obraz": "https://stardewvalleywiki.com/mediawiki/images/3/36/Triple_Shot_Espresso.png",
+                "tags": []
+            },
+            {
+                "name": "Obiad Rolnika",
+                "skladniki": "Omlet, Pasternak",
+                "opis": "To cię podtrzyma na nogach.",
+                "narzedia": "Kuchenka",
+                "AGD": "",
+                "czas": "",
+                "przygotowanie": "",
+                "obraz": "https://stardewvalleywiki.com/mediawiki/images/7/79/Farmer%27s_Lunch.png",
+                "tags": []
+            }
+        ]
+    }
+]
