@@ -31,3 +31,7 @@ div{
     background-color: mediumorchid;
     border-radius: 10px;
 }
+img{
+    height: 100px;
+    width: 100px;
+}
