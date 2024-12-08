@@ -80,5 +80,1041 @@
                 "tags": []
             }
         ]
-    }
+    },
+    {
+        "gra": "Terraria",
+        "dania": [
+            {
+                "name": "Golden Delights",
+                "skladniki": "Dowolne złote zwierzę",
+                "opis": "Ugotuj złote zwierzę.",
+                "narzedia": "-",
+                "AGD": "Kociołek",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "",
+                "tags": []
+            },
+            {
+                "name": "Seafood Dinner",
+                "skladniki": "Dowolna średnia ryba",
+                "opis": "Ugotuj rybę.",
+                "narzedia": "-",
+                "AGD": "Kociołek",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "",
+                "tags": []
+            },
+            {
+                "name": "Cooked Marshmallow",
+                "skladniki": "Pianka",
+                "opis": "Nabij piankę na patyk i trzymaj nad ogniskiem przez 15 sekund.",
+                "narzedia": "Patyk",
+                "AGD": "Ognisko",
+                "czas": "15 sekund",
+                "przygotowanie": "",
+                "obraz": "",
+                "tags": []
+            },
+            {
+                "name": "Bloody Moscato",
+                "skladniki": "Krwawa pomarańcza, Jagodzian",
+                "opis": "Dodaj krwawą pomarańcze i jagodzian rambutan do butelki.",
+                "narzedia": "Butelka",
+                "AGD": "Kociołek",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "",
+                "tags": []
+            },
+            {
+                "name": "Frozen Banana Daiquiri",
+                "skladniki": "Banan, Śnieg",
+                "opis": "Dodaj banana i śnieg do butelki.",
+                "narzedia": "Butelka",
+                "AGD": "Kociołek",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "",
+                "tags": []
+            },
+            {
+                "name": "Pumpkin Pie",
+                "skladniki": "Dynia x10",
+                "opis": "Upiecz 10 dyń.",
+                "narzedia": "-",
+                "AGD": "Piec",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "",
+                "tags": []
+            },
+            {
+                "name": "Bunny Stew",
+                "skladniki": "Królik",
+                "opis": "Ugotuj królika >:D",
+                "narzedia": "-",
+                "AGD": "Kociołek",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "",
+                "tags": []
+            }
+        ]
+    },
+    {
+        "gra": "Minecraft",
+        "dania": [
+            {
+                "name": "Pieczony Ziemniak",
+                "skladniki": "Ziemniak",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Wędzarka",
+                "czas": "5s",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e0/Baked_Potato_JE4_BE2.png",
+                "tags": []
+            },
+            {
+                "name": "Gulasz Króliczy",
+                "skladniki": "Pieczony królik, Marchewka, Pieczony ziemniak, Jakiś grzyb",
+                "opis": "",
+                "narzedia": "Miska",
+                "AGD": "Stół rzemieślniczy",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Rabbit_Stew_JE3_BE2.png?f7678",
+                "tags": []
+            },
+            {
+                "name": "Barszcz Czerwony",
+                "skladniki": "6 x Burak",
+                "opis": "",
+                "narzedia": "Miska",
+                "AGD": "Stół rzemieślniczy",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Beetroot_Soup_JE2_BE2.png?a48bd",
+                "tags": []
+            },
+            {
+                "name": "Zaczarowane Złote Jabłko",
+                "skladniki": "8 x Blok 1m^3 Złota, Jabłko",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Stół rzemieślniczy",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Enchanted_Golden_Apple_JE2_BE2.gif?f4719",
+                "tags": []
+            },
+            {
+                "name": "Złote Jabłko",
+                "skladniki": "8 x Sztabka Złota, Jabłko",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Stół rzemieślniczy",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Golden_Apple_JE2_BE2.png?aa827",
+                "tags": []
+            },
+            {
+                "name": "Złota Marchewka",
+                "skladniki": "9 x Złoty Samorodek, Marchewka",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Stół rzemieślniczy",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Golden_Carrot_JE4_BE2.png?43b25",
+                "tags": []
+            },
+            {
+                "name": "Pieczona Baranina",
+                "skladniki": "Surowa Baranina",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Wędzarka",
+                "czas": "5s",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Cooked_Mutton_JE3_BE2.png?fcd19",
+                "tags": []
+            },
+            {
+                "name": "Pieczony Schab",
+                "skladniki": "Surowa Wieprzowina",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Wędzarka",
+                "czas": "5s",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Cooked_Porkchop_JE4_BE3.png?d99d3",
+                "tags": []
+            },
+            {
+                "name": "Pieczony Łosoś",
+                "skladniki": "Surowy Łosoś",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Wędzarka",
+                "czas": "5s",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Cooked_Salmon_JE2_BE2.png?e7309",
+                "tags": []
+            },
+            {
+                "name": "Stek",
+                "skladniki": "Surowa Wołowina",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Wędzarka",
+                "czas": "5s",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Steak_JE4_BE3.png?45317",
+                "tags": []
+            },
+            {
+                "name": "Chleb",
+                "skladniki": "3 x Siano",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Stół rzemieślniczy",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Bread_JE3_BE3.png?e1046",
+                "tags": []
+            },
+            {
+                "name": "Suszone Wodorosty",
+                "skladniki": "Wodorosty",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Wędzarka",
+                "czas": "5s",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Dried_Kelp_JE1_BE2.png?441be",
+                "tags": []
+            },
+            {
+                "name": "Pieczony Kurczak",
+                "skladniki": "Surowy Kurczak",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Wędzarka",
+                "czas": "5s",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Cooked_Chicken_JE3_BE3.png?3f3d8",
+                "tags": []
+            },
+            {
+                "name": "Pieczony Dorsz",
+                "skladniki": "Surowy Dorsz",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Wędzarka",
+                "czas": "5s",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Cooked_Cod_JE4_BE3.png?b495d",
+                "tags": []
+            },
+            {
+                "name": "Pieczony Królik",
+                "skladniki": "Mięso z Królika",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Wędzarka",
+                "czas": "5s",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Cooked_Rabbit_JE3_BE2.png?ec522",
+                "tags": []
+            },
+            {
+                "name": "Gulasz Grzybowy",
+                "skladniki": "Muchomor, Pieczarka",
+                "opis": "",
+                "narzedia": "Miska",
+                "AGD": "-",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Mushroom_Stew_JE2_BE2.png?57ddf",
+                "tags": []
+            },
+            {
+                "name": "Podejrzany Gulasz",
+                "skladniki": "Muchomor, Pieczarka, Jakiś Kwiat",
+                "opis": "",
+                "narzedia": "Miska",
+                "AGD": "-",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Suspicious_Stew_JE1_BE1.png?d4da8",
+                "tags": []
+            },
+            {
+                "name": "Ciasto Dyniowe",
+                "skladniki": "Dynia, Cukier, Jajko",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "-",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Pumpkin_Pie_JE2_BE2.png?d7f38",
+                "tags": []
+            },
+            {
+                "name": "Ciasto",
+                "skladniki": "3 x Wiadro Wody, 2 x Cukier, Jajko, 3 x Siano",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Stół rzemieślniczy",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/thumb/Cake_JE4.png/150px-Cake_JE4.png?009f2",
+                "tags": []
+            },
+            {
+                "name": "Ciasteczko",
+                "skladniki": "2 x Siano, Nasiona Kakaowca",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Stół rzemieślniczy",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Cookie_JE2_BE2.png?a911c",
+                "tags": []
+            },
+            {
+                "name": "Butelka Miodu",
+                "skladniki": "1m x 1m Blok Złota, 4 x Szklana Butelka",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Stół rzemieślniczy",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://minecraft.wiki/images/Honey_Bottle_JE1_BE2.png?78afc",
+                "tags": []
+            }
+        ]
+    },
+    {
+        "gra": "Don't Starve",
+        "dania": [
+            {
+                "name": "Banana Shake",
+                "skladniki": "2 Jaskiniowe Banany",
+                "opis": "Makes me feel a bit rogueish.",
+                "narzedia": "-",
+                "AGD": "Crock Pot",
+                "czas": "10s",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/9/96/Banana_Shake.png/revision/latest",
+                "tags": []
+            },
+            {
+                "name": "Meaty Stew",
+                "skladniki": "3 Mięsa",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Crock Pot",
+                "czas": "15s",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/1/18/Meaty_Stew_Build.png/revision/latest",
+                "tags": []
+            },
+            {
+                "name": "Waffles",
+                "skladniki": "Masło, Jagody, Jajko",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Crock Pot",
+                "czas": "10s",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/e/e8/Waffles.png/revision/latest",
+                "tags": []
+            },
+            {
+                "name": "Stuffed Night Cap",
+                "skladniki": "2 Księżycowe Kapeluszniki, Mięso Potwora",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Crock Pot",
+                "czas": "20s",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/8/83/Stuffed_Night_Cap.png/revision/latest",
+                "tags": []
+            },
+            {
+                "name": "Steamed Twigs",
+                "skladniki": "3 Patyki",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Crock Pot",
+                "czas": "10s",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/c/c6/Steamed_Twigs.png/revision/latest/scale-to-width-down/64",
+                "tags": []
+            },
+            {
+                "name": "Pierogi",
+                "skladniki": "1 Jajko, Mięso, Warzywa",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Crock Pot",
+                "czas": "20s",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/9/91/Pierogi.png/revision/latest",
+                "tags": []
+            },
+            {
+                "name": "Mushy Cake",
+                "skladniki": "Księżycowy Kapelusznik, Czerwony Grzyb, Niebieski Grzyb, Zielony Grzyb",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Crock Pot",
+                "czas": "20s",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/8/8c/Mushy_Cake.png/revision/latest",
+                "tags": []
+            }
+        ]
+    },
+    {
+        "gra": "Animal Crossing",
+        "dania": [
+            {
+                "name": "Poke",
+                "skladniki": "Łosoś, Pomidor",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://dodo.ac/np/images/4/42/Poke_NH_Icon.png",
+                "tags": []
+            },
+            {
+                "name": "Pumpkin Cupcakes",
+                "skladniki": "Mąka, Cukier, Dynia x2",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://dodo.ac/np/images/b/be/Pumpkin_Cupcakes_NH_Icon.png",
+                "tags": []
+            },
+            {
+                "name": "Squid-Ink Spaghetti",
+                "skladniki": "Mąka, Kałamarnica",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://dodo.ac/np/images/6/68/Squid-Ink_Spaghetti_NH_Icon.png",
+                "tags": []
+            },
+            {
+                "name": "Veggie Crepe",
+                "skladniki": "Mąka, Pomidor, Dynia",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://dodo.ac/np/images/0/0a/Veggie_Crepe_NH_Icon.png",
+                "tags": []
+            },
+            {
+                "name": "Salmon Bagel Sandwich",
+                "skladniki": "Mąka, Łosoś",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://dodo.ac/np/images/a/a7/Salmon_Bagel_Sandwich_NH_Icon.png",
+                "tags": []
+            },
+            {
+                "name": "Olive-Flounder Meunière",
+                "skladniki": "Flądra, Mąka",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://dodo.ac/np/images/d/d1/Olive-Flounder_Meuni%C3%A8re_NH_Icon.png",
+                "tags": []
+            },
+            {
+                "name": "Coconut Cookies",
+                "skladniki": "Mąka, Cukier, Kokos",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://dodo.ac/np/images/c/c3/Coconut_Cookies_NH_Icon.png",
+                "tags": []
+            },
+            {
+                "name": "Frosted Pretzels",
+                "skladniki": "Mąka, Cukier",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://dodo.ac/np/images/9/92/Frosted_Pretzels_NH_Icon.png",
+                "tags": []
+            },
+            {
+                "name": "Grilled Sea Bass with Herbs",
+                "skladniki": "Okoń Morski, Chwasty",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://dodo.ac/np/images/5/5b/Grilled_Sea_Bass_with_Herbs_NH_Icon.png",
+                "tags": []
+            },
+            {
+                "name": "Orange Jelly",
+                "skladniki": "Pomarańcza",
+                "opis": "",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://dodo.ac/np/images/e/e2/Orange_Jelly_NH_Icon.png",
+                "tags": []
+            }
+        ]        
+    },
+    {
+        "gra": "Genshin Impact",
+        "dania": [
+            {
+                "name": "Chicken Tofu Pudding",
+                "skladniki": "4 drobiu, 2 szynki, 2 jajka ptaka, wyżlin",
+                "opis": "A dish that requires great precision to make. Successfully formed into a single block with no debris, it truly looks like tofu pudding. Its exquisite tenderness unravels on the tongue the moment it is scooped up with a porcelain spoon and fed into the mouth, and the taste is so sublime that it almost feels like having an out-of-body experience. What lies before you is no mere dish, but a gentle breeze, a pure spring, a stroke of the divine.",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Item_Delicious_Chicken_Tofu_Pudding.png/revision/latest",
+                "tags": []
+            },
+            {
+                "name": "Golden Shrimp Balls",
+                "skladniki": "5 krewetek, 4 ziemniaki, mąka",
+                "opis": "A deep-fried snack. First, deep fry the bean flour balls, then stuff them with fillings, fried shrimp, and sauce. Though they may be slightly complicated to prepare, the fact that they're so delicious makes it all worth it.",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Item_Golden_Shrimp_Balls.png/revision/latest",
+                "tags": []
+            },
+            {
+                "name": "Volcano Cake",
+                "skladniki": "2 nasiona kakaowca, cukier, ptasie jajko, mąka",
+                "opis": "A volcano-shaped cake. The steaming hot 'little volcano' finds its perfect foil in the icy-cool 'ash cloud' that rises above. Aside from its irresistible sweetness, the aroma of the flowing 'lava' brings you a deep sense of satisfaction and comfort.",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Item_Delicious_Volcano_Cake.png/revision/latest",
+                "tags": []
+            },
+            {
+                "name": "Stir-Fried Fish Noodles",
+                "skladniki": "2 ryby, ryż, 2 wyżlin",
+                "opis": "A main dish with an intense flavor. The sumptuous, fresh look is already enough to leave people salivating, and one bite will surely lead to another. The smooth rice noodles and tender fish grant this meal a seat at any gourmet's table, its pedestrian ingredients notwithstanding.",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Delicious_Stir-Fried_Fish_Noodles.png/revision/latest",
+                "tags": []
+            },
+            {
+                "name": "Triple-Layered Consommé",
+                "skladniki": "2 szynki, 2 drobiu, kiełek bambusa, grzyb",
+                "opis": "A neatly arranged dish. The evenly-sized threads reveal exquisite knife-work. Rather than a dish, this seems more like a work of art. But once you work up the wherewithal to pick up those chopsticks and have at it, the delicious flavors will be utter bliss — leaving this as a mere work of art would be such a shame.",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Delicious_Triple-Layered_Consomm%C3%A9.png/revision/latest",
+                "tags": []
+            },
+            {
+                "name": "Five Pickled Treasures",
+                "skladniki": "2 rzodkiewki, 2 marchewki, 2 lawendowe melony, 2 trawy morskie",
+                "opis": "Pickled vegetables. The fermentation process has added a layer of flavor to the natural sweetness of the ingredients. The crispy texture is a real highlight, and it spices up rice and wine alike exceptionally. A treasure indeed!",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Delicious_Five_Pickled_Treasures.png/revision/latest",
+                "tags": []
+            },
+            {
+                "name": "Grilled Fish in Mint Sauce",
+                "skladniki": "Ryba, Mięta",
+                "opis": "Grilled Fish doused in a delicious sauce. The fish is scored, stuffed with spices, then baked. Once cooked, a thick mint sauce is generously drizzled over the top. The refreshing aroma of the fish is enough to whet anyone's appetite.",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Item_Grilled_Fish_in_Mint_Sauce.png/revision/latest",
+                "tags": []
+            }
+        ]        
+    },
+    {
+        "gra": "Zelda",
+        "dania": [
+            {
+                "name": "Seafood Curry",
+                "skladniki": "Ryba porgy, Ryż z Hyrulu, Przyprawa Goronów",
+                "opis": "This dish brims with treasures from the sea. Its spice packs a kick, so it's not for kids.",
+                "narzedia": "-",
+                "AGD": "Garnek",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/2/22/BotW_Seafood_Curry_Icon.png/revision/latest?cb=20171227180539",
+                "tags": []
+            },
+            {
+                "name": "Roasted Swift Carrot",
+                "skladniki": "Prędka marchewka",
+                "opis": "A fragrant swift carrot that's been lightly roasted. It doesn't have any special effects, but it will restore some health.",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/2/24/BotW_Roasted_Swift_Carrot_Icon.png/revision/latest?cb=20171223203729&format=original",
+                "tags": []
+            },
+            {
+                "name": "Frozen Bird Drumstick",
+                "skladniki": "Surowa pałka z ptaka",
+                "opis": "It's as hard as a rock but is supposedly edible. It restores a small number of hearts and has a cooling effect.",
+                "narzedia": "-",
+                "AGD": "Zimno",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/6/6a/BotW_Frozen_Bird_Drumstick_Icon.png/revision/latest?cb=20171222162447&format=original",
+                "tags": []
+            },
+            {
+                "name": "Prime Meat and Seafood Fry",
+                "skladniki": "Surowe mięso, Dowolny owoc morza",
+                "opis": "This comfort dish is made with choice cuts of meat and seafood.",
+                "narzedia": "-",
+                "AGD": "Garnek",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/f/fc/BotW_Prime_Meat_and_Seafood_Fry_Icon.png/revision/latest?cb=20171227181125&format=original",
+                "tags": []
+            },
+            {
+                "name": "Roasted Wildberry",
+                "skladniki": "Dzika jagoda",
+                "opis": "This wildberry was prepared over an open flame to alter its sweet taste. It recovers more health than if eaten raw.",
+                "narzedia": "-",
+                "AGD": "Kuchenka",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/2/2f/BotW_Roasted_Wildberry_Icon.png/revision/latest?cb=20171220152001",
+                "tags": []
+            },
+            {
+                "name": "Curry Rice",
+                "skladniki": "Ryż z Hyrulu, Przyprawa Goronów",
+                "opis": "A favorite all over Hyrule, this simple dish has a flavor you just won't get tired of.",
+                "narzedia": "-",
+                "AGD": "Garnek",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/d/d0/BotW_Curry_Rice_Icon.png/revision/latest?cb=20171227180355&format=original",
+                "tags": []
+            },
+            {
+                "name": "Fish Pie",
+                "skladniki": "Dowolna ryba, Kozie masło, Sól, Przenica z Tabanthy",
+                "opis": "A mainstay in any fisherman's home, the crisp crust pairs well with the fishy flavor.",
+                "narzedia": "-",
+                "AGD": "Garnek",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/e/ed/BotW_Fish_Pie_Icon.png/revision/latest?cb=20171227180332&format=original",
+                "tags": []
+            },
+            {
+                "name": "Creamy Heart Soup",
+                "skladniki": "Serdeczna rzodkiewka, Hydromelon, Woltoowoc, Mleko",
+                "opis": "Enjoying this sweet soup with another person will bring you both close together.",
+                "narzedia": "-",
+                "AGD": "Garnek",
+                "czas": "-",
+                "przygotowanie": "",
+                "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/2/21/BotW_Creamy_Heart_Soup_Icon.png/revision/latest?cb=20171227180914&format=original",
+                "tags": []
+            }
+        ]        
+    },
+    {
+        "gra": "Raft",
+        "dania": [
+            {
+              "name": "BBQ",
+              "skladniki": "Surowe Mięso + Surowa Makrela + Surowa Pałka + Grzyb Jaskiniowy",
+              "narzedzia": "-",
+              "AGD": "Garnek",
+              "czas": "-",
+              "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/0/03/BBQ.png/revision/latest/scale-to-width-down/50",
+              "opis": "Gdy owoce stają się nudne.",
+              "przygotowanie": "", 
+              "tags": []
+            },
+            {
+              "name": "Deluxe z Sumem",
+              "skladniki": "Surowy Ziemniak lub Surowy Burak + Surowy Sum + Grzyb Jaskiniowy + Papryczka Chili",
+              "narzedzia": "-",
+              "AGD": "Garnek",
+              "czas": "-",
+              "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/f/fc/Catfish_Deluxe.png/revision/latest/scale-to-width-down/50",
+              "opis": "Przepis, który można ugotować w garnku. Sprawia, że biegniesz szybciej.",
+              "Przygotowanie": "",
+              "tags": []
+            },
+            {
+              "name": "Kokosowy Kurczak",
+              "skladniki": "Surowa Pałka (2) + Kokos + Grzyb Jaskiniowy",
+              "narzedzia": "-",
+              "AGD": "Garnek",
+              "czas": "-",
+              "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/c/c1/Coconut_Chicken.png/revision/latest/scale-to-width-down/50",
+              "opis": "Pyszny kurczak gotowany w mleku kokosowym.",
+              "Przygotowanie": "",
+              "tags": []
+            },
+            {
+              "name": "Udka z Konfiturą",
+              "skladniki": "Surowa Pałka (2) + Czerwone Jagody (2)",
+              "narzedzia": "-",
+              "AGD": "Garnek",
+              "czas": "-",
+              "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/1/1c/Recipe_Drumstick_with_Jam.png/revision/latest/scale-to-width-down/50",
+              "opis": "... kto wymyślił ten przepis?",
+              "Przygotowanie": "",
+              "tags": []
+            },
+            {
+              "name": "Gulasz Rybny",
+              "skladniki": "Jajko + Wiadro Mleka + Surowa Tilapia lub Surowa Makrela (≤2)",
+              "narzedzia": "-",
+              "AGD": "Garnek",
+              "czas": "-",
+              "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/6/6f/Fish_Stew.png/revision/latest/scale-to-width-down/50",
+              "opis": "Bardziej sycąca i smaczna zupa rybna.",
+              "Przygotowanie": "",
+              "tags": []
+            },
+            {
+              "name": "Rosół z Rozdymką",
+              "skladniki": "Surowy Ziemniak lub Surowy Burak + Głowa Rozdymki (2) + Wiadro Mleka",
+              "narzedzia": "-",
+              "AGD": "Garnek",
+              "czas": "-",
+              "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/6/6c/Head_Broth.png/revision/latest/scale-to-width-down/50",
+              "opis": "Trochę przerażający, ale odżywczy wywar.",
+              "Przygotowanie": "",
+              "tags": []
+            },
+            {
+              "name": "Pożywny Gulasz",
+              "skladniki": "Surowy Ziemniak + Grzyb Jaskiniowy + Surowe Mięso + Jałowiec",
+              "narzedzia": "-",
+              "AGD": "Garnek",
+              "czas": "-",
+              "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/1/15/Hearty_Stew.png/revision/latest/scale-to-width-down/50",
+              "opis": "Tajemniczy gulasz pozwalający uniknąć śmierci, raz.",
+              "Przygotowanie": "",
+              "tags": []
+            },
+            {
+              "name": "Omlet Grzybowy",
+              "skladniki": "Surowy Ziemniak + Jajko (2) + Grzyb Jaskiniowy",
+              "narzedzia": "-",
+              "AGD": "Garnek",
+              "czas": "-",
+              "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/b/b7/Mushroom_Omelette.png/revision/latest/scale-to-width-down/50",
+              "opis": "Ulubione danie społeczności śniadaniowej.",
+              "Przygotowanie": "",
+              "tags": []
+            },
+            {
+              "name": "Sałatka z Łososia",
+              "skladniki": "Ananas lub Mango + Surowy Łosoś + Srebrne Glony + Kurkuma",
+              "narzedzia": "-",
+              "AGD": "Garnek",
+              "czas": "-",
+              "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/7/77/Salmon_Salad.png/revision/latest/scale-to-width-down/50",
+              "opis": "Zdrowa sałatka zwiększająca pojemność płuc.",
+              "Przygotowanie": "",
+              "tags": []
+            },
+            {
+              "name": "Obiad z Rekina",
+              "skladniki": "Surowe Mięso Rekina (2) + Grzyb Jaskiniowy + Srebrne Glony",
+              "narzedzia": "-",
+              "AGD": "Garnek",
+              "czas": "-",
+              "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/c/c5/Shark_Dinner.png/revision/latest/scale-to-width-down/50",
+              "opis": "Porcja jedzenia dla trzech osób.",
+              "Przygotowanie": "",
+              "tags": []
+            },            
+            {
+                "name": "Prosty Gulasz Rybny",
+                "skladniki": "Surowy Ziemniak lub Surowy Burak (≤2) + Surowy Śledź lub Surowa Pomfret (≤2)",
+                "narzedzia": "-",
+                "AGD": "Garnek",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/1/19/Simple_Fish_Stew.png/revision/latest/scale-to-width-down/50",
+                "opis": "Pachnie rybą, ale smakuje całkiem dobrze.",
+                "Przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Stek z Konfiturą",
+                "skladniki": "Surowy Ziemniak lub Surowy Burak + Surowe Mięso + Czerwone Jagody (2)",
+                "narzedzia": "-",
+                "AGD": "Garnek",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/3/38/Steak_with_Jam.png/revision/latest/scale-to-width-down/50",
+                "opis": "Proste i konkretne danie.",
+                "Przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Sushi",
+                "skladniki": "Surowa Makrela lub Surowa Tilapia (≤2) + Jajko + Srebrne Glony",
+                "narzedzia": "-",
+                "AGD": "Garnek",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/6/6d/Sushi.png/revision/latest/scale-to-width-down/50",
+                "opis": "Skąd wzięliśmy ryż?",
+                "Przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Zupa Warzywna",
+                "skladniki": "Surowy Ziemniak lub Surowy Burak (≤4)",
+                "narzedzia": "-",
+                "AGD": "Garnek",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/c/cd/Vegetable_Soup.png/revision/latest/scale-to-width-down/50",
+                "opis": "Mieszanka warzyw, która cię rozgrzeje.",
+                "Przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Kokosowy Sok",
+                "skladniki": "Kokos (3) + Surowy Burak",
+                "narzedzia": "-",
+                "AGD": "Sokowirówka",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/a/ab/Coconut_Beat.png/revision/latest/scale-to-width-down/50",
+                "opis": "Przepis, który można wykonać w sokowirówce.",
+                "Przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Mangonan",
+                "skladniki": "Mango + Banan (2) + Wiadro Mleka",
+                "narzedzia": "-",
+                "AGD": "Sokowirówka",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/d/d0/Mangonana.png/revision/latest/scale-to-width-down/50",
+                "opis": "Przepis, który można wykonać w sokowirówce.",
+                "Przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Arbuzowy Mix",
+                "skladniki": "Czerwone Jagody + Truskawka + Arbuz + Kokos",
+                "narzedzia": "-",
+                "AGD": "Sokowirówka",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/f/fa/Red_Melon.png/revision/latest/scale-to-width-down/48",
+                "opis": "Przepis, który można wykonać w sokowirówce.",
+                "Przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Shot z Buraka",
+                "skladniki": "Surowy Burak (2) + Kokos + Kurkuma",
+                "narzedzia": "-",
+                "AGD": "Sokowirówka",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/a/ac/Redbeet_Shot.png/revision/latest/scale-to-width-down/50",
+                "opis": "Dodaje dodatkowe serca.",
+                "Przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Srebrne Smoothie",
+                "skladniki": "Banan + Mango + Wiadro Mleka + Srebrne Glony",
+                "narzedzia": "-",
+                "AGD": "Sokowirówka",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/1/11/Silver_Smoothie.png/revision/latest/scale-to-width-down/50",
+                "opis": "Przepis, który można wykonać w sokowirówce.",
+                "Przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Proste Smoothie",
+                "skladniki": "Mango + Ananas + Kokos (2)",
+                "narzedzia": "-",
+                "AGD": "Sokowirówka",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/8/8e/Simple_Smoothie.png/revision/latest/scale-to-width-down/50",
+                "opis": "Przepis, który można wykonać w sokowirówce.",
+                "Przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Pikantna Sosna",
+                "skladniki": "Ananas + Truskawka (2) + Papryczka Chili",
+                "narzedzia": "-",
+                "AGD": "Sokowirówka",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/b/b5/Spicy_Pineberry.png/revision/latest/scale-to-width-down/50",
+                "opis": "Zwiększa szybkość pływania.",
+                "przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Truskawkolada",
+                "skladniki": "Ananas + Truskawka + Kokos (2)",
+                "narzedzia": "-",
+                "AGD": "Sokowirówka",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/1/1c/Strawberry_Colada.png/revision/latest/scale-to-width-down/48",
+                "opis": "Przepis, który można wykonać w sokowirówce.",
+                "przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Pieczony Burak",
+                "skladniki": "Surowy Burak",
+                "narzedzia": "-",
+                "AGD": "Prosty Grill",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/2/2c/Cooked_Beet.png/revision/latest/scale-to-width-down/50",
+                "opis": "Pieczony burak - przygotowywany na prostym grillu.",
+                "przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Pieczony Ziemniak",
+                "skladniki": "Surowy Ziemniak",
+                "narzedzia": "-",
+                "AGD": "Prosty Grill",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/c/c2/Cooked_Potato.png/revision/latest/scale-to-width-down/50",
+                "opis": "Pieczony ziemniak - przygotowywany na prostym grillu.",
+                "przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Pieczone Mięso Rekina",
+                "skladniki": "Surowe Mięso Rekina",
+                "narzedzia": "-",
+                "AGD": "Prosty Grill",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/a/ab/Cooked_Shark_Meat.png/revision/latest/scale-to-width-down/50",
+                "opis": "Mięso rekina - pieczone na prostym grillu.",
+                "przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Pieczony Śledź",
+                "skladniki": "Surowy Śledź",
+                "narzedzia": "-",
+                "AGD": "Prosty Grill",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/5/5d/Cooked_Herring.png/revision/latest/scale-to-width-down/50",
+                "opis": "Śledź - upieczony na prostym grillu.",
+                "przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Pieczone Pomfret",
+                "skladniki": "Surowy Pomfret",
+                "narzedzia": "-",
+                "AGD": "Prosty Grill",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/6/63/Cooked_Pomfret.png/revision/latest/scale-to-width-down/50",
+                "opis": "Pomfret - upieczony na prostym grillu.",
+                "przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Pieczona Makrela",
+                "skladniki": "Surowa Makrela",
+                "narzedzia": "-",
+                "AGD": "Prosty Grill",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/5/52/Cooked_Mackerel.png/revision/latest/scale-to-width-down/50",
+                "opis": "Makrela - upieczona na prostym grillu.",
+                "przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Pieczona Tilapia",
+                "skladniki": "Surowa Tilapia",
+                "narzedzia": "-",
+                "AGD": "Prosty Grill",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/1/1d/Cooked_Tilapia.png/revision/latest/scale-to-width-down/50",
+                "opis": "Tilapia - upieczona na prostym grillu.",
+                "przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Pieczony Sum",
+                "skladniki": "Surowy Sum",
+                "narzedzia": "-",
+                "AGD": "Zaawansowany Grill",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/d/d3/Cooked_Catfish.png/revision/latest/scale-to-width-down/50",
+                "opis": "Sum - pieczony na zaawansowanym grillu.",
+                "przygotowanie": "",
+                "tags": []
+            },
+            {
+                "name": "Pieczony Łosoś",
+                "skladniki": "Surowy Łosoś",
+                "narzedzia": "-",
+                "AGD": "Zaawansowany Grill",
+                "czas": "-",
+                "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/6/69/Cooked_Salmon.png/revision/latest/scale-to-width-down/50",
+                "opis": "Łosoś - pieczony na zaawansowanym grillu.",
+                "przygotowanie": "",
+                "tags": []
+            }
+        ]
+    } 
 ]
