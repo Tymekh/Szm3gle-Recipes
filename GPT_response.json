@@ -1,5 +1,5 @@
-[
-    {
+{
+    "Stardew_Valley":{
         "gra": "Stardew Valley",
         "dania": [
             {
@@ -81,7 +81,7 @@
             }
         ]
     },
-    {
+    "Terraria":{
         "gra": "Terraria",
         "dania": [
             {
@@ -163,7 +163,7 @@
             }
         ]
     },
-    {
+    "Minecraft":{
         "gra": "Minecraft",
         "dania": [
             {
@@ -399,7 +399,7 @@
             }
         ]
     },
-    {
+    "Dont_Starve":{
         "gra": "Don't Starve",
         "dania": [
             {
@@ -481,7 +481,7 @@
             }
         ]
     },
-    {
+    "Animal_Crossing":{
         "gra": "Animal Crossing",
         "dania": [
             {
@@ -596,7 +596,7 @@
             }
         ]        
     },
-    {
+    "Genshin_Impact":{
         "gra": "Genshin Impact",
         "dania": [
             {
@@ -678,7 +678,7 @@
             }
         ]        
     },
-    {
+    "Zelda":{
         "gra": "Zelda",
         "dania": [
             {
@@ -771,7 +771,7 @@
             }
         ]        
     },
-    {
+    "Raft":{
         "gra": "Raft",
         "dania": [
             {
@@ -1117,4 +1117,4 @@
             }
         ]
     } 
-]
+}
