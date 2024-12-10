@@ -21,7 +21,8 @@
 <script type="module">
     import data from "./GPT_response.json" with {type: "json"};
     let main = document.getElementsByTagName("main")[0];
-    let idGry = location.search.replaceAll("%22", '"').replaceAll("%20", ' ').slice(location.search.search("=")+1);
+    let searchParams = new URLSearchParams(location.search)
+    let idGry = searchParams.get("gra");
     console.log(idGry);
     
     let collection  = document.getElementsByClassName("title");
@@ -31,9 +32,20 @@
         
     }
     for (const i in data[idGry].dania){
+        let url = new URL("item.html", location.href);
+        let params = new URLSearchParams(url);
+        params.set("gra", idGry);
+        params.set("danie", i);
+
+        let link = url+"?"+params.toString();
+        console.log(link);
+
+        let danie = data[idGry].dania[i];
+
         // let strona = data[0].gra.replace(" ", '').replace("'", '').toLowerCase();
         
-        main.innerHTML += "<div onclick='window.location="+'""'+"' class='item'><p><img src="+data[idGry].dania[i].obraz+">"+data[idGry].dania[i].name+"</p></div>";
+        // main.innerHTML += `<div onclick='window.location="${link}" class='item'><p><img src='${data[idGry].dania[i].obraz}'>${data[idGry].dania[i].name}</p></div>`;
+        main.innerHTML += `<div class='item' onclick="window.location='${link}'"><img src="${danie.obraz}"></img>${danie.name}</div>`
     }
 </script>
     

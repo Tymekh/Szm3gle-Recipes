@@ -17,16 +17,5 @@
     </footer>
 </body>
 </html>
-<script type="module">
-    import data from "./GPT_response.json" with {type: "json"};
-    let main = document.getElementsByTagName("main")[0];
-    
-    for (const i in data){
-        let strona = data[i].gra.replace(" ", '').replace("'", '').toLowerCase();
-        
-        main.innerHTML += "<div "+"onclick=window.location='gry.html?gra="+i+"'"+" class=item>"+i.replaceAll("_", " ")+"</div>"
-        // main.innerHTML += "<div onclick='window.location="+"gry.html?gra="+"' class='item'></div>";
-        // main.innerHTML += '<div onclick="window.location='+'"'+"gry.html?gra=Terraria"+'"'+' class="item"></div>';
-        // main.innerHTML += "<div onclick=window.location='./gry"+".html"+"?gra="+i+" class='item''>"+data[i].gra+"</div>";
-    }
-</script>
+<script src="script.js"></script>
+<script>game_list()</script>
