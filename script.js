@@ -10,35 +10,33 @@ function Get_JSON(yourUrl)
 }
 let data = Get_JSON('https://tymekh.github.io/Szm3gle-Recipes/GPT_response.json')
 
+gameList();
 
-window.test = function(){
-    console.log("test");
-    document.body.innerHTML += "test ";
+
+function updateTitle(text){
+    if(Object.keys(data).includes(text)){
+        text = data[text].gra;
+    }
+    let collection  = document.getElementsByClassName("title");
+    for (let i = 0; i < collection.length; i++) {
+        const ele = collection[i];
+        ele.innerHTML = text;
+    }
 }
 
-function game_list(){
+function gameList(){
     let gryContainer = document.getElementsByClassName("gry-container")[0];
 
-    console.log("tak");
     for (const i in data){
-        // let strona = data[i].gra.replace(" ", '').replace("'", '').toLowerCase();
-        let url = new URL("gry.html", location.href);
-        let params = new URLSearchParams(url);
-        params.set("gra", i);
-        let link = url + "?" +params.toString();
-        
         gryContainer.innerHTML += `<div onclick=game('${i}') class=gry>${i.replaceAll("_", " ")}</div>`;
     }
 }
 
+
 function game(idGry){
     main.innerHTML = '';
-    let collection  = document.getElementsByClassName("title");
-    for (let i = 0; i < collection.length; i++) {
-        const ele = collection[i];
-        ele.innerHTML = idGry.replaceAll("_", " ");
-        
-    }
+    updateTitle(idGry);
+
     for (const i in data[idGry].dania){
         let danieObj = data[idGry].dania[i];
     
@@ -46,9 +44,11 @@ function game(idGry){
     }
 }
 
+
 function danie(idGry, idDanie){
     main.innerHTML = '';
     let danie = data[idGry].dania[idDanie];
+    updateTitle(danie.name);
 
     // history.replaceState({}, '', 'placeholder');
     main.innerHTML += "<div class='item'>"+"<img src='"+danie.obraz+"''>"+danie.name+"</div>";

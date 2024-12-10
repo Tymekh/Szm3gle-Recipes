@@ -40,10 +40,12 @@ main{
     margin-bottom: 35vh;
 }
 .gry{
-    width: 23%;
+    width: 20%;
     height: 20vh;
     background-color: rgb(235, 235, 235);
     border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
 }
 footer{
     background-color: rgb(183, 212, 51);
