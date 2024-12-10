@@ -1,7 +1,8 @@
 *{
-    font-family: fantasy;
+    font-family: VT323;
     letter-spacing: 2px;
 }
+  
 body{
     margin: 0;
     background-image: url("./obrazy/tlo.jpg");
