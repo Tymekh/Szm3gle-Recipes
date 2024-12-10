@@ -84,7 +84,7 @@
     },
     "Terraria":{
         "gra": "Terraria",
-        "icon": "https://stardewvalleywiki.com/mediawiki/images/6/68/Main_Logo.png",
+        "icon": "https://terraria.wiki.gg/images/thumb/a/a4/NewPromoLogo.png/298px-NewPromoLogo.png",
         "dania": [
             {
                 "name": "Golden Delights",
@@ -167,6 +167,7 @@
     },
     "Minecraft":{
         "gra": "Minecraft",
+        "icon":"https://static.wikia.nocookie.net/minecraft/images/9/94/MSPromotionalBackground.jpg",
         "dania": [
             {
                 "name": "Pieczony Ziemniak",
@@ -403,6 +404,7 @@
     },
     "Dont_Starve":{
         "gra": "Don't Starve",
+        "icon":"https://i.ytimg.com/vi/jORB2dpRlpk/maxresdefault.jpg",
         "dania": [
             {
                 "name": "Banana Shake",
@@ -485,6 +487,7 @@
     },
     "Animal_Crossing":{
         "gra": "Animal Crossing",
+        "icon":"https://www.nintendo.pl/switch/assets/img/acnh/hero_img.jpg",
         "dania": [
             {
                 "name": "Poke",
@@ -600,6 +603,7 @@
     },
     "Genshin_Impact":{
         "gra": "Genshin Impact",
+        "icon":"https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_GenshinImpact_miHoYoLimited_S1_2560x1440-91c6cd7312cc2647c3ebccca10f30399",
         "dania": [
             {
                 "name": "Chicken Tofu Pudding",
@@ -682,6 +686,7 @@
     },
     "Zelda":{
         "gra": "Zelda",
+        "icon":"https://gagadget.pl/media/cache/9c/4e/9c4ea23f982773ca92f176b53f483516.jpg",
         "dania": [
             {
                 "name": "Seafood Curry",
@@ -775,6 +780,7 @@
     },
     "Raft":{
         "gra": "Raft",
+        "icon":"https://i3.ytimg.com/vi/58zeu7HA4cA/maxresdefault.jpg",
         "dania": [
             {
                 "name": "BBQ",
