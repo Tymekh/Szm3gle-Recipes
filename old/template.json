@@ -1,6 +1,7 @@
-[
-    {
+{
+    "gra":{
         "gra": "gra1",
+        "icon": "icon",
         "dania": [
             {
             "name": "jedzenie",
@@ -17,4 +18,4 @@
             }
         ]
     }
-]
+}

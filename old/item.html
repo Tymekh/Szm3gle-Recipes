@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title class="title">Document</title>
+</head>
+<body>
+    <header>
+        <h3 class="title">Stardew Valley</h3>
+    </header>
+    <main>
+        
+    </main>
+    <footer>
+        <p>Autorzy: Adrian Breitenbach, Tymoteusz Niklas, Tymoteusz Dombrowski</p>
+    </footer>
+</body>
+</html>
+<script type="module">
+    import data from "./GPT_response.json" with {type: "json"};
+    let main = document.getElementsByTagName("main")[0];
+    const params = new URLSearchParams(location.search);
+    let idGry = params.get("gra");
+    let idDanie = params.get("danie")
+    console.log(idGry);
+    let danie = data[idGry].dania[idDanie];
+
+    // history.replaceState({}, '', 'placeholder');
+    main.innerHTML += "<div class='item'>"+"<img src='"+danie.obraz+"''>"+danie.name+"</div>";
+    console.log(danie);
+
+
+    let collection  = document.getElementsByClassName("title");
+    for (let i = 0; i < collection.length; i++) {
+        const ele = collection[i];
+        ele.innerHTML = idGry.replaceAll("_", " ");
+        
+    }
+
+    // for (const i in data[idGry].dania){
+    //     // let strona = data[0].gra.replace(" ", '').replace("'", '').toLowerCase();
+        
+    //     main.innerHTML += "<div onclick='window.location="+'""'+"' class='item'><p><img src="+data[idGry].dania[i].obraz+">"+data[idGry].dania[i].name+"</p></div>";
+    // }
+</script>
+    
+</body>
+</html>
+<!-- <script>
+    let get = location.search.replaceAll("%22", '"').replaceAll("%20", ' ').slice(get.search("=")+1);
+    console.log(location.search)
+    console.log(str);
+</script> -->
