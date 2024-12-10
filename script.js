@@ -40,7 +40,7 @@ function game(idGry){
     for (const i in data[idGry].dania){
         let danieObj = data[idGry].dania[i];
     
-        main.innerHTML += `<div class='item' onclick="danie('${idGry}', '${i}')"><img src="${danieObj.obraz}"></img>${danieObj.name}</div>`
+        main.innerHTML += `<div class='item' onclick="danie('${idGry}', '${i}')"><img src="${danieObj.obraz}"></img><nav class='item-text-container'><h2>${danieObj.name}</h2><p>${danieObj.opis}</p></nav></div>`
     }
 }
 

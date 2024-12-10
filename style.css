@@ -63,18 +63,41 @@ footer{
     border-radius: 10px;
     cursor: pointer;
 }
+.item img{
+    height: 100%;
+    float: left;
+    clear: none;
+}
+.item-text-container{
+    float: left;
+    margin-left: 20px;
+}
+.item-text-container p{
+    max-height: 40px;
+    max-width: 700px;
+    overflow: hidden;
+}
+/* .item h2{
+    float: left;
+    clear: right;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.item p{
+    padding-top: 60px;
+    float: left;
+    
+} */
 p{
     margin: 0;
 }
 a{
     padding-left: 40px;
     padding-right: 40px;
-}
-a{
     color: black;
     font-style: normal;
 }
-img{
+/* img{
     height: 100px;
     width: 100px;
-}
+} */
