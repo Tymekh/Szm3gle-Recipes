@@ -3,7 +3,6 @@
 }
 body{
     margin: 0;
-    /* background-color: rgb(5, 47, 71); */
     background-image: url("./obrazy/tlo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,8 +30,6 @@ main{
     margin-top: 0;
     padding-top: 40px;
     padding-bottom: 40px;
-    /* height: 85vh; */
-    /* overflow-y: auto; */
 }
 .index-main{
     overflow-y: hidden;
@@ -54,6 +51,9 @@ main{
     border-radius: 10px;
     cursor: pointer;
     margin: 10px;
+}
+.gry:hover{
+    background-color: rgb(183, 212, 51);
 }
 footer{
     background-color: rgb(5, 47, 71);

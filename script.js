@@ -12,7 +12,6 @@ let data = Get_JSON('https://tymekh.github.io/Szm3gle-Recipes/GPT_response.json'
 
 gameList();
 
-
 function updateTitle(text){
     if(Object.keys(data).includes(text)){
         text = data[text].gra;
@@ -32,7 +31,6 @@ function gameList(){
     }
 }
 
-
 function game(idGry){
     main.innerHTML = '';
     updateTitle(idGry);
@@ -43,7 +41,6 @@ function game(idGry){
         main.innerHTML += `<div class='item' onclick="danie('${idGry}', '${i}')"><img src="${danieObj.obraz}"></img>${danieObj.name}</div>`
     }
 }
-
 
 function danie(idGry, idDanie){
     main.innerHTML = '';
