@@ -24,6 +24,7 @@ function updateTitle(text){
 }
 
 function gameList(){
+    document.body.style.overflow = "hidden";
     let gryContainer = document.getElementsByClassName("gry-container")[0];
 
     for (const i in data){
@@ -33,16 +34,18 @@ function gameList(){
 
 function game(idGry){
     main.innerHTML = '';
+    document.body.style.overflow = "auto";
     updateTitle(idGry);
 
     for (const i in data[idGry].dania){
         let danieObj = data[idGry].dania[i];
     
-        main.innerHTML += `<div class='item' onclick="danie('${idGry}', '${i}')"><img src="${danieObj.obraz}"></img><nav class='item-text-container'><h2>${danieObj.name}</h2><p>${danieObj.opis}</p></nav></div>`
+        main.innerHTML += `<div class='item' onclick="danie('${idGry}', '${i}')"><img src="${danieObj.obraz}"></img><nav class='item-text-container'><h2>${danieObj.name}</h2><p>${danieObj.opis.slice(0,160)}...</p></nav></div>`
     }
 }
 
 function danie(idGry, idDanie){
+    document.body.style.overflow = "hidden";
     main.innerHTML = '';
     let danie = data[idGry].dania[idDanie];
     updateTitle(danie.name);
