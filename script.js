@@ -28,7 +28,7 @@ function gameList(){
     let gryContainer = document.getElementsByClassName("gry-container")[0];
 
     for (const i in data){
-        gryContainer.innerHTML += `<div onclick=game('${i}') class=gry>${i.replaceAll("_", " ")}</div>`;
+        gryContainer.innerHTML += `<div onclick=game('${i}') class=gry background-image='${data[i].logo}'>${data[i].gra}</div>`;
     }
 }
 
