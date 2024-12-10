@@ -28,7 +28,7 @@ function gameList(){
     let gryContainer = document.getElementsByClassName("gry-container")[0];
 
     for (const i in data){
-        gryContainer.innerHTML += `<div onclick=game('${i}') class=gry background-image='${data[i].logo}'>${data[i].gra}</div>`;
+        gryContainer.innerHTML += `<div onclick=game('${i}') class=gry style='background-image:url(${data[i].icon})'></div>`;
     }
 }
 
@@ -39,8 +39,14 @@ function game(idGry){
 
     for (const i in data[idGry].dania){
         let danieObj = data[idGry].dania[i];
+
+        let opis = danieObj.opis;
+        if(opis.length > 157){
+            opis = opis.slice(0, 157);
+            opis += "...";
+        }
     
-        main.innerHTML += `<div class='item' onclick="danie('${idGry}', '${i}')"><img src="${danieObj.obraz}"></img><nav class='item-text-container'><h2>${danieObj.name}</h2><p>${danieObj.opis.slice(0,160)}...</p></nav></div>`
+        main.innerHTML += `<div class='item' onclick="danie('${idGry}', '${i}')"><img src="${danieObj.obraz}"></img><nav class='item-text-container'><h2>${danieObj.name}</h2><p>${opis}</p></nav></div>`
     }
 }
 

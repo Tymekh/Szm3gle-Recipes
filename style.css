@@ -48,12 +48,17 @@ main{
     /* background-image: url("./obrazy/stardew_valley_logo.png"); */
     background-position-x: center;
     background-position-y: center;
-    background-size: contain; 
+    background-size: 100% 100%; 
     background-repeat: no-repeat;
     filter: grayscale(100%);
     border-radius: 10px;
     cursor: pointer;
     margin: 10px;
+    transition: filter 0.4s;
+    height: 20vh;
+    width: 30vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 .gry:hover{
     /* background-color: rgb(183, 212, 51); */
