@@ -42,8 +42,7 @@ main{
 .gry{
     width: 23%;
     height: 20vh;
-    background-color: rgb(235, 235, 235)
-    ;
+    background-color: rgb(235, 235, 235);
     border-radius: 10px;
 }
 footer{

@@ -17,6 +17,7 @@ window.test = function(){
 }
 
 function game_list(){
+    let gryContainer = document.getElementsByClassName("gry-container")[0];
 
     console.log("tak");
     for (const i in data){
@@ -26,10 +27,7 @@ function game_list(){
         params.set("gra", i);
         let link = url + "?" +params.toString();
         
-        main.innerHTML += `<div onclick=game('${i}') class=item>${i.replaceAll("_", " ")}</div>`;
-        // main.innerHTML += "<div onclick='window.location="+"gry.html?gra="+"' class='item'></div>";
-        // main.innerHTML += '<div onclick="window.location='+'"'+"gry.html?gra=Terraria"+'"'+' class="item"></div>';
-        // main.innerHTML += "<div onclick=window.location='./gry"+".html"+"?gra="+i+" class='item''>"+data[i].gra+"</div>";
+        gryContainer.innerHTML += `<div onclick=game('${i}') class=gry>${i.replaceAll("_", " ")}</div>`;
     }
 }
 
@@ -42,20 +40,8 @@ function game(idGry){
         
     }
     for (const i in data[idGry].dania){
-        // let url = new URL("item.html", location.href);
-        // let params = new URLSearchParams(url);
-        // params.set("gra", idGry);
-        // params.set("danie", i);
-    
-        // let link = url+"?"+params.toString();
-        // console.log(link);
-        let link = '';
-    
         let danieObj = data[idGry].dania[i];
     
-        // let strona = data[0].gra.replace(" ", '').replace("'", '').toLowerCase();
-        
-        // main.innerHTML += `<div onclick='window.location="${link}" class='item'><p><img src='${data[idGry].dania[i].obraz}'>${data[idGry].dania[i].name}</p></div>`;
         main.innerHTML += `<div class='item' onclick="danie('${idGry}', '${i}')"><img src="${danieObj.obraz}"></img>${danieObj.name}</div>`
     }
 }
