@@ -21,8 +21,11 @@ main{
     background-color: rgb(247, 247, 247);
     width: 70%;
     margin: auto;
-    height: 85vh;
-    overflow-y: auto;
+    margin-top: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* height: 85vh; */
+    /* overflow-y: auto; */
 }
 .index-main{
     overflow-y: hidden;
@@ -50,6 +53,25 @@ footer{
     border-radius: 20px 20px 0px 0px;
     display: flex;
     justify-content: center;
+}
+.item{
+    height: 20vh;
+    margin: 40px;
+    margin-top: 0px;
+    background-color: mediumorchid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+}
+a{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+a{
+    color: black;
+    font-style: normal;
 }
 img{
     height: 100px;

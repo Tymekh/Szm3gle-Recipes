@@ -1,6 +1,7 @@
 {
     "Stardew_Valley":{
         "gra": "Stardew Valley",
+        "icon": "https://stardewvalleywiki.com/mediawiki/images/6/68/Main_Logo.png",
         "dania": [
             {
                 "name": "Szczęśliwy Lunch",
@@ -83,6 +84,7 @@
     },
     "Terraria":{
         "gra": "Terraria",
+        "icon": "https://stardewvalleywiki.com/mediawiki/images/6/68/Main_Logo.png",
         "dania": [
             {
                 "name": "Golden Delights",
