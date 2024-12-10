@@ -17,6 +17,7 @@ window.test = function(){
 }
 
 function game_list(){
+
     console.log("tak");
     for (const i in data){
         // let strona = data[i].gra.replace(" ", '').replace("'", '').toLowerCase();
