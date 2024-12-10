@@ -1,5 +1,6 @@
 *{
-    font-family: 'Comic Sans MS';
+    font-family: fantasy;
+    letter-spacing: 2px;
 }
 body{
     margin: 0;
@@ -18,7 +19,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh;
+    height: 10vh;
     width: 100%;
     background-color: rgb(5, 47, 71);
     border-radius: 0px 0px 20px 20px;
@@ -42,7 +43,7 @@ main{
     justify-content: center;
     gap: 25px;
     margin-top: 20px;
-    height: 45vh;
+    height: 50vh;
 }
 .gry{
     width: 20%;
@@ -62,6 +63,7 @@ footer{
     border-radius: 20px 20px 0px 0px;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
     margin-top: 29vh;
 }
