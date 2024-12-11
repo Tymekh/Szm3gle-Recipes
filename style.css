@@ -132,6 +132,7 @@ a{
     top: 20vh;
     width: 20vh;
     height: 60vh;
-    background-color: green;
+    background-image:url(./obrazy/ad.png);
+    background-size: contain;
     cursor: pointer;
  }
