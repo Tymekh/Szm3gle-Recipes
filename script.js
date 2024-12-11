@@ -1,3 +1,4 @@
+ 
 // import data from "./GPT_response.json" with {type: "json"};
 // // import data from './GPT_response.json';
 let main = document.getElementsByTagName("main")[0];
@@ -26,13 +27,15 @@ function updateTitle(text){
 function gameList(){
     document.body.style.overflow = "hidden";
     let gryContainer = document.getElementsByClassName("gry-container")[0];
-
+    
     for (const i in data){
         gryContainer.innerHTML += `<div onclick=game('${i}') class=gry style='background-image:url(${data[i].icon})'></div>`;
     }
+    window.scrollTo(0, 0);
 }
 
 function game(idGry){
+    window.scrollTo(0, 0);
     main.innerHTML = '';
     document.body.style.overflow = "auto";
     updateTitle(idGry);
@@ -51,11 +54,13 @@ function game(idGry){
 }
 
 function danie(idGry, idDanie){
+    window.scrollTo(0, 0);
     document.body.style.overflow = "hidden";
     main.innerHTML = '';
     let danie = data[idGry].dania[idDanie];
     updateTitle(danie.name);
 
     // history.replaceState({}, '', 'placeholder');
-    main.innerHTML += "<div class='item'>"+"<img src='"+danie.obraz+"''>"+danie.name+"</div>";
+    main.innerHTML += `<div class='item-food'><img src="${danie.obraz}"></img><nav class='item-text-container'><h2>${danie.name}</h2><p>${danie.opis}</p></nav></div>`
+    // main.innerHTML += "<div class='item'>"+"<img src='"+danie.obraz+"''>"+danie.name+"</div>";
 }
