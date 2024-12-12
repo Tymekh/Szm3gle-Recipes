@@ -1,6 +1,6 @@
- 
-// import data from "./GPT_response.json" with {type: "json"};
-// // import data from './GPT_response.json';
+ // import data from "./GPT_response.json" with {type: "json"};rr
+// import data from './GPT_response.json';
+let last;
 let main = document.getElementsByTagName("main")[0];
 function Get_JSON(yourUrl)
 {
@@ -11,7 +11,6 @@ function Get_JSON(yourUrl)
 }
 let data = Get_JSON(location.href+'/GPT_response.json')
 
-gameList();
 
 function updateTitle(text){
     if(Object.keys(data).includes(text)){
@@ -25,6 +24,14 @@ function updateTitle(text){
 }
 
 function gameList(){
+    main.innerHTML = `
+    <div class="gry-container">
+    
+    </div>
+    <hr style="width: 90%;height: 2px; background-color: black;">
+    <p class="opis">
+        Witaj na stronie pełnej pysznych i łatwych przepisów z gier komputerowych! Znajdziesz tu różnorodne propozycje na dania, które możesz przygotować w zaciszu swojej bazy. Niezależnie od tego, czy szukasz inspiracji na szybki obiad, czy chcesz się szybko uleczyć – mamy coś dla Ciebie. Przeglądaj przepisy, poznawaj nowe schematy w kuchni i ciesz się bonusami!
+    </p>`;
     document.body.style.overflow = "hidden";
     let gryContainer = document.getElementsByClassName("gry-container")[0];
     
@@ -36,7 +43,7 @@ function gameList(){
 
 function game(idGry){
     window.scrollTo(0, 0);
-    main.innerHTML = '';
+    main.innerHTML = ``;
     document.body.style.overflow = "auto";
     updateTitle(idGry);
 
@@ -51,6 +58,7 @@ function game(idGry){
     
         main.innerHTML += `<div class='item' onclick="danie('${idGry}', '${i}')"><img src="${danieObj.obraz}"></img><nav class='item-text-container'><h2>${danieObj.name}</h2><p>${opis}</p></nav></div>`
     }
+    last = gameList.bind(null);
 }
 
 function danie(idGry, idDanie){
@@ -64,5 +72,12 @@ function danie(idGry, idDanie){
     console.log(danie.przygotowanie);
     main.innerHTML += `<div class='item-food'><img src="${danie.obraz}" class="obraz"></img><nav class='danie-text-container'><h2>${danie.name}</h2><p>${danie.opis}</p><hr><p><b>Składniki:</b> ${danie.skladniki}</p><hr><p><b>AGD: </b>${danie.AGD}</p><hr><b>Przygotowanie:</b> <br><p>${danie.przygotowanie}</p></nav></div>`
     // main.innerHTML += "<div class='item'>"+"<img src='"+danie.obraz+"''>"+danie.name+"</div>";
+    last = game.bind(null, idGry);
 }
-console.log(data.Stardew_Valley.dania[0].przygotowanie);
+
+
+function back(){
+    last()
+}
+
+gameList(); // <---- Startowanie strony

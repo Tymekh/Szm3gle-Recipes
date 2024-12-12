@@ -86,7 +86,7 @@ footer{
     cursor: pointer;
 }
 .item img{
-    height: calc(80% - 10px);
+    height: calc(20vh - 40px);
     float: left;
     clear: none;
     /* image-rendering: optimizeQuality; */
