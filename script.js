@@ -62,7 +62,7 @@ function danie(idGry, idDanie){
 
     // history.replaceState({}, '', 'placeholder');
     console.log(danie.przygotowanie);
-    main.innerHTML += `<div class='item-food'><img src="${danie.obraz}" class="obraz"></img><nav class='item-text-container'><h2>${danie.name}</h2><p>${danie.opis}</p><hr><p><b>Składniki:</b> ${danie.skladniki}</p><hr><p><b>AGD: </b>${danie.AGD}</p><hr><b>Przygotowanie:</b> <br><p>${danie.przygotowanie}</p></nav></div>`
+    main.innerHTML += `<div class='item-food'><img src="${danie.obraz}" class="obraz"></img><nav class='danie-text-container'><h2>${danie.name}</h2><p>${danie.opis}</p><hr><p><b>Składniki:</b> ${danie.skladniki}</p><hr><p><b>AGD: </b>${danie.AGD}</p><hr><b>Przygotowanie:</b> <br><p>${danie.przygotowanie}</p></nav></div>`
     // main.innerHTML += "<div class='item'>"+"<img src='"+danie.obraz+"''>"+danie.name+"</div>";
 }
 console.log(data.Stardew_Valley.dania[0].przygotowanie);
