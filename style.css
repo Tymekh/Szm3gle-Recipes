@@ -6,8 +6,8 @@
 body{
     margin: 0;
     background-image: url("./obrazy/tlo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
 }
 h3{
     display: inline-block;
@@ -37,7 +37,7 @@ footer{
     bottom: 0px;
     background-color: rgb(5, 47, 71);
     width: 100%;
-    height: 10vh;
+    height: 12vh;
     border-radius: 20px 20px 0px 0px;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 25px;
+    gap: 2vh;
     margin-top: 20px;
     height: 50vh;
 }
@@ -81,28 +81,35 @@ footer{
     height: 20vh;
     margin: 40px;
     margin-top: 0px;
-    background-color: mediumorchid;
+    background-color: cornflowerblue;
     border-radius: 10px;
     cursor: pointer;
 }
 .item img{
-    height: 100%;
+    height: 80%;
     float: left;
     clear: none;
+    /* image-rendering: optimizeQuality; */
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
 }
 .item-text-container{
     float: left;
     margin-left: 20px;
 }
 .item-text-container p{
-    max-width: 700px;
+    max-width: 900px;
+    font-size: 1.25em;
     /* overflow: hidden; */
 }
 .item-food{
     height: 60vh;
     margin: 40px;
     margin-top: 0px;
-    background-color: mediumorchid;
+    background-color: cornflowerblue;
     border-radius: 10px;
 }
 .item-food img{
@@ -111,7 +118,7 @@ footer{
     clear: none;
 }
 .item-food p{
-    max-width: 300px;
+    max-width: 800px;
 }
 p{
     margin: 0;
@@ -136,3 +143,48 @@ a{
     background-size: contain;
     cursor: pointer;
  }
+ .back{
+    position: fixed;
+    left: 20px;
+    height: 30px;
+    width: 80px;
+    height: 80px;
+    z-index: 69;
+    cursor: pointer;
+    background-color: rgb(5, 47, 71);
+    padding: 7px;
+    border-radius: 10px;
+ }
+.obraz{
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.opis{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 1.25em;
+}
+
+
+
+
+
+
+
+.obracanie{
+    animation: obracanie infinite 1s linear;
+}
+.znikanie{
+    animation: znikanie 0.75s linear;
+}
+@keyframes obracanie {
+    from {transform: rotateZ(0deg) scale(1);}
+    from {transform: rotateZ(180deg) scale(2);}
+    from {transform: rotateZ(360deg) scale(1);}
+}
+@keyframes znikanie {
+    to {opacity: 0;}
+    }

@@ -9,7 +9,7 @@ function Get_JSON(yourUrl)
     Httpreq.send(null);
     return JSON.parse(Httpreq.responseText);
 }
-let data = Get_JSON('https://tymekh.github.io/Szm3gle-Recipes/GPT_response.json')
+let data = Get_JSON(location.href+'/GPT_response.json')
 
 gameList();
 
@@ -61,6 +61,8 @@ function danie(idGry, idDanie){
     updateTitle(danie.name);
 
     // history.replaceState({}, '', 'placeholder');
-    main.innerHTML += `<div class='item-food'><img src="${danie.obraz}"></img><nav class='item-text-container'><h2>${danie.name}</h2><p>${danie.opis}</p></nav></div>`
+    console.log(danie.przygotowanie);
+    main.innerHTML += `<div class='item-food'><img src="${danie.obraz}" class="obraz"></img><nav class='item-text-container'><h2>${danie.name}</h2><p>${danie.opis}</p><hr><p><b>Składniki:</b> ${danie.skladniki}</p><hr><p><b>AGD: </b>${danie.AGD}</p><hr><b>Przygotowanie:</b> <br><p>${danie.przygotowanie}</p></nav></div>`
     // main.innerHTML += "<div class='item'>"+"<img src='"+danie.obraz+"''>"+danie.name+"</div>";
 }
+console.log(data.Stardew_Valley.dania[0].przygotowanie);
