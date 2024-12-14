@@ -35,9 +35,11 @@ function gameList(){
     document.body.style.overflow = "hidden";
     let gryContainer = document.getElementsByClassName("gry-container")[0];
     
-    for (const i in data){
+    console.log(data.games);
+    data.games.forEach(i => {
+        console.log(i);
         gryContainer.innerHTML += `<div onclick=game('${i}') class=gry style='background-image:url(${data[i].icon})'></div>`;
-    }
+    });
     window.scrollTo(0, 0);
 }
 

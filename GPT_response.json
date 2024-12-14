@@ -1,4 +1,14 @@
 {
+    "games":[
+        "Stardew_Valley",
+        "Animal_Crossing",
+        "Terraria",
+        "Genshin_Impact",
+        "Minecraft",
+        "Zelda",
+        "Dont_Starve",
+        "Raft"
+    ],
     "Stardew_Valley":{
         "gra": "Stardew Valley",
         "icon": "https://stardewvalleywiki.com/mediawiki/images/6/68/Main_Logo.png",
