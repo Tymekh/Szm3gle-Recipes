@@ -34,6 +34,7 @@ function gameList(){
     </p>`;
     updateTitle("Przepisy");
     document.getElementsByClassName("back")[0].style.visibility = "hidden";
+    document.getElementsByClassName("filtry")[0].style.display = "block";
     document.body.style.overflow = "hidden";
     let gryContainer = document.getElementsByClassName("gry-container")[0];
     
@@ -49,6 +50,7 @@ function game(idGry){
     window.scrollTo(0, 0);
     main.innerHTML = ``;
     document.getElementsByClassName("back")[0].style.visibility = "visible";
+    document.getElementsByClassName("filtry")[0].style.display = "none";
     document.body.style.overflow = "auto";
     updateTitle(idGry);
 
