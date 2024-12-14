@@ -64,7 +64,7 @@ footer{
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     filter: grayscale(100%);
-    border-radius: 10px;
+    border-radius: 2vh;
     cursor: pointer;
     height: 20vh;
     width: 16vw;
