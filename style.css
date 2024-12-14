@@ -20,7 +20,9 @@ header{
     height: 10vh;
     font-size: 4vh;
     width: 100%;
-    background-color: rgb(5, 47, 71);
+    /* background: linear-gradient(45deg, blue, red); */
+    background: linear-gradient(0, rgb(50, 50, 134), rgb(0, 0, 218));
+    /* background-color: rgb(5, 47, 71); */
     border-radius: 0px 0px 20px 20px;
 }
 main{
@@ -34,6 +36,8 @@ footer{
     position: static;
     bottom: 0px;
     background-color: rgb(5, 47, 71);
+    /* background: linear-gradient(45deg, red, blue); */
+    background: linear-gradient(180deg, darkblue, rgb(0, 0, 218));
     width: 100%;
     height: 6vh;
     border-radius: 20px 20px 0px 0px;
@@ -68,12 +72,12 @@ footer{
     margin-bottom: 0.5vh;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s;
 }
 .gry:hover{
     transform: scale(1.05);
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.55);
     filter: grayscale(0%);
 }
 .item{
@@ -155,7 +159,7 @@ a{
     height: calc(10vh - 14px);
     z-index: 69;
     cursor: pointer;
-    background-color: rgb(5, 47, 71);
+    background-attachment: fixed;
     padding: 7px;
     border-radius: 10px;
 }
