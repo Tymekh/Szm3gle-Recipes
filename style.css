@@ -147,7 +147,7 @@ a{
 } */
 .ad{
     position: absolute;
-    left: 0vh;
+    right: 0vh;
     top: 20vh;
     width: 20vh;
     height: 60vh;
