@@ -44,6 +44,7 @@ footer{
     align-items: center;
     color: white;
     font-size: 2.5vh;
+    min-height: calc(6vh - 8px);
 }
 .gry-container{
     width: calc(100% - 2vh);
@@ -55,7 +56,6 @@ footer{
     align-items: center;
     margin: 20px 1vh 0 1vh;
 }
-
 .gry{
     background-position-x: center;
     background-position-y: center;
@@ -64,14 +64,14 @@ footer{
     filter: grayscale(100%);
     border-radius: 10px;
     cursor: pointer;
-    margin: 10px;
-    transition: filter 0.4s;
     height: 20vh;
     width: 16vw;
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.4s;
 }
 .gry:hover{
     transform: scale(1.05);
@@ -140,7 +140,7 @@ a{
     height: 100px;
     width: 100px;
 } */
- .ad{
+.ad{
     position: absolute;
     left: 0vh;
     top: 20vh;
@@ -149,8 +149,8 @@ a{
     background-image:url(./obrazy/ad.png);
     background-size: contain;
     cursor: pointer;
- }
- .back{
+}
+.back{
     position: fixed;
     left: 20px;
     width: calc(10vh - 14px);
@@ -160,7 +160,7 @@ a{
     background-color: rgb(5, 47, 71);
     padding: 7px;
     border-radius: 10px;
- }
+}
 .obraz{
     background-color: beige;
     padding: 10px;
@@ -171,7 +171,8 @@ a{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
-    font-size: 1.9em;
+    font-size: 3vh;
+    min-height: calc(10vh - 2vh);
 }
 
 
