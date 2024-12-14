@@ -27,14 +27,16 @@ function updateTitle(text){
 }
 
 function gameList(){
-    main.innerHTML = `
-    <div class="gry-container">
-    
-    </div>
-    <hr style="width: 90%;height: 2px; background-color: black;">
-    <p class="opis">
-        Witaj na stronie pełnej pysznych i łatwych przepisów z gier komputerowych! Znajdziesz tu różnorodne propozycje na dania, które możesz przygotować w zaciszu swojej bazy. Niezależnie od tego, czy szukasz inspiracji na szybki obiad, czy chcesz się szybko uleczyć – mamy coś dla Ciebie. Przeglądaj przepisy, poznawaj nowe schematy w kuchni i ciesz się bonusami!
-    </p>`;
+    main.innerHTML = 
+    `
+        <div class="gry-container">
+
+        </div>
+        <hr class="main-hr">
+        <p class="opis">
+            Witaj na stronie pełnej pysznych i łatwych przepisów z gier komputerowych! Znajdziesz tu różnorodne propozycje na dania, które możesz przygotować w zaciszu swojej bazy. Niezależnie od tego, czy szukasz inspiracji na szybki obiad, czy chcesz się szybko uleczyć - mamy coś dla Ciebie. Przeglądaj przepisy, poznawaj nowe schematy w kuchni i ciesz się bonusami!
+        </p>
+    `;
     updateTitle("Przepisy");
     document.getElementsByClassName("back")[0].style.visibility = "hidden";
     document.body.style.overflow = "hidden";

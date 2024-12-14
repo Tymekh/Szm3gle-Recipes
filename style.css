@@ -23,7 +23,7 @@ header{
     /* background: linear-gradient(45deg, blue, red); */
     background: linear-gradient(0, rgb(50, 50, 134), rgb(0, 0, 218));
     /* background-color: rgb(5, 47, 71); */
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 2vw 2vw;
 }
 main{
     background-color: rgb(247, 247, 247);
@@ -40,7 +40,7 @@ footer{
     background: linear-gradient(180deg, darkblue, rgb(0, 0, 218));
     width: 100%;
     height: 6vh;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 2vw 2vw 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,7 @@ footer{
     margin-bottom: 0.5vh;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0.25vw 0.5vw rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s;
 }
 .gry:hover{
@@ -174,11 +174,10 @@ a{
     margin: 10px;
 }
 .opis{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     font-size: 3vh;
-    min-height: calc(10vh - 2vh);
+    min-height: calc(10vh - 2vh);   
 }
 .main-hr{
     width: 90%;
@@ -186,7 +185,7 @@ a{
     background-color: black;
     border: 0;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 3vh;
 }
 
 
