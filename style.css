@@ -87,6 +87,7 @@ footer{
     background-color: cornflowerblue;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 .item img{
     height: calc(20vh - 40px);
@@ -97,7 +98,7 @@ footer{
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
-
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 .item-text-container{
     float: left;
@@ -120,6 +121,7 @@ footer{
     height: 70%;
     float: left;
     clear: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
 }
 .item-food p{
     max-width: 70%;
