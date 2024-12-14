@@ -1,5 +1,5 @@
 {
-    "games":[
+    "games": [
         "Stardew_Valley",
         "Animal_Crossing",
         "Terraria",
@@ -9,7 +9,7 @@
         "Dont_Starve",
         "Raft"
     ],
-    "Stardew_Valley":{
+    "Stardew_Valley": {
         "gra": "Stardew Valley",
         "icon": "https://stardewvalleywiki.com/mediawiki/images/6/68/Main_Logo.png",
         "dania": [
@@ -22,7 +22,7 @@
                 "czas": "",
                 "przygotowanie": "",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Lucky_Lunch.png",
-                "tags": []
+                "tags": ["owoce morza", "bez laktozy", "bez orzechów", "obiad"]
             },
             {
                 "name": "Przekąska z Pola",
@@ -33,7 +33,7 @@
                 "czas": "",
                 "przygotowanie": "",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Field_Snack.png",
-                "tags": []
+                "tags": ["bez laktozy", "bez glutenu", "przekąska", "dietetyczne"]
             },
             {
                 "name": "Mango z Lepkim Ryżem",
@@ -44,7 +44,7 @@
                 "czas": "",
                 "przygotowanie": "",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Mango_Sticky_Rice.png",
-                "tags": []
+                "tags": ["bez glutenu", "bez orzechów", "owoce", "deser", "bez laktozy"]
             },
             {
                 "name": "Koktajl Krewetkowy",
@@ -55,7 +55,7 @@
                 "czas": "",
                 "przygotowanie": "",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/8/8e/Shrimp_Cocktail.png",
-                "tags": []
+                "tags": ["owoce morza", "bez glutenu", "przekąska", "dietetyczne"]
             },
             {
                 "name": "Pikantny Węgorz",
@@ -66,7 +66,7 @@
                 "czas": "",
                 "przygotowanie": "",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Spicy_Eel.png",
-                "tags": []
+                "tags": ["owoce morza", "bez laktozy", "bez orzechów", "kolacja"]
             },
             {
                 "name": "Potrójne Espresso",
@@ -77,7 +77,7 @@
                 "czas": "",
                 "przygotowanie": "",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/3/36/Triple_Shot_Espresso.png",
-                "tags": []
+                "tags": ["bez laktozy", "bez glutenu", "śniadanie", "napój"]
             },
             {
                 "name": "Obiad Rolnika",
@@ -88,11 +88,11 @@
                 "czas": "",
                 "przygotowanie": "",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/7/79/Farmer%27s_Lunch.png",
-                "tags": []
+                "tags": ["obiad", "bez orzechów"]
             }
         ]
     },
-    "Terraria":{
+    "Terraria": {
         "gra": "Terraria",
         "icon": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1731252354",
         "dania": [
@@ -105,7 +105,7 @@
                 "czas": "-",
                 "przygotowanie": "Ugotuj złote zwierzę.",
                 "obraz": "https://static.wikia.nocookie.net/terraria_gamepedia/images/9/91/Golden_Delight.png",
-                "tags": []
+                "tags": ["mięso", "bez laktozy", "bez orzechów", "bez glutenu", "obiad"]
             },
             {
                 "name": "Seafood Dinner",
@@ -116,7 +116,7 @@
                 "czas": "-",
                 "przygotowanie": "Ugotuj rybę.",
                 "obraz": "https://static.wikia.nocookie.net/terraria_gamepedia/images/5/54/Seafood_Dinner.png",
-                "tags": []
+                "tags": ["owoce morza", "bez laktozy", "bez orzechów", "bez glutenu", "kolacja"]
             },
             {
                 "name": "Cooked Marshmallow",
@@ -127,7 +127,7 @@
                 "czas": "15 sekund",
                 "przygotowanie": "Nabij piankę na patyk i trzymaj nad ogniskiem przez 15 sekund.",
                 "obraz": "https://static.wikia.nocookie.net/terraria_gamepedia/images/5/56/Cooked_Marshmallow.png",
-                "tags": []
+                "tags": ["deser", "bez laktozy", "przekąska"]
             },
             {
                 "name": "Bloody Moscato",
@@ -138,7 +138,7 @@
                 "czas": "-",
                 "przygotowanie": "Dodaj krwawą pomarańcze i jagodzian rambutan do butelki.",
                 "obraz": "https://static.wikia.nocookie.net/terraria_gamepedia/images/8/88/Bloody_Moscato.png",
-                "tags": []
+                "tags": ["napój", "dietetyczne", "bez glutenu", "bez laktozy"]
             },
             {
                 "name": "Frozen Banana Daiquiri",
@@ -149,7 +149,7 @@
                 "czas": "-",
                 "przygotowanie": "Dodaj banana i śnieg do butelki.",
                 "obraz": "https://static.wikia.nocookie.net/terraria_gamepedia/images/d/d3/Frozen_Banana_Daiquiri.png",
-                "tags": []
+                "tags": ["napój", "deser", "bez laktozy", "dietetyczne"]
             },
             {
                 "name": "Pumpkin Pie",
@@ -160,7 +160,7 @@
                 "czas": "-",
                 "przygotowanie": "Upiecz 10 dyń.",
                 "obraz": "https://static.wikia.nocookie.net/terraria_gamepedia/images/7/7d/Pumpkin_Pie.png",
-                "tags": []
+                "tags": ["deser", "bez glutenu", "bez laktozy", "dietetyczne"]
             },
             {
                 "name": "Bunny Stew",
@@ -171,13 +171,13 @@
                 "czas": "-",
                 "przygotowanie": "Ugotuj królika >:D",
                 "obraz": "https://static.wikia.nocookie.net/terraria_gamepedia/images/1/1f/Bunny_Stew.png",
-                "tags": []
+                "tags": ["mięso", "bez laktozy", "bez orzechów", "bez glutenu", "obiad"]
             }
         ]
     },
-    "Minecraft":{
+    "Minecraft": {
         "gra": "Minecraft",
-        "icon":"https://static.wikia.nocookie.net/minecraft/images/9/94/MSPromotionalBackground.jpg",
+        "icon": "https://static.wikia.nocookie.net/minecraft/images/9/94/MSPromotionalBackground.jpg",
         "dania": [
             {
                 "name": "Pieczony Ziemniak",
@@ -188,7 +188,7 @@
                 "czas": "5s",
                 "przygotowanie": "Upiecz ziemniaka w wędzarce.",
                 "obraz": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e0/Baked_Potato_JE4_BE2.png",
-                "tags": []
+                "tags": ["bez laktozy", "bez glutenu", "przekąska"]
             },
             {
                 "name": "Gulasz Króliczy",
@@ -199,7 +199,7 @@
                 "czas": "-",
                 "przygotowanie": "Wrzuć składniki do miski.",
                 "obraz": "https://minecraft.wiki/images/Rabbit_Stew_JE3_BE2.png?f7678",
-                "tags": []
+                "tags": ["mięso", "bez glutenu", "obiad"]
             },
             {
                 "name": "Barszcz Czerwony",
@@ -210,7 +210,7 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Beetroot_Soup_JE2_BE2.png?a48bd",
-                "tags": []
+                "tags": ["bez laktozy", "dietetyczne", "obiad"]
             },
             {
                 "name": "Zaczarowane Złote Jabłko",
@@ -221,7 +221,7 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Enchanted_Golden_Apple_JE2_BE2.gif?f4719",
-                "tags": []
+                "tags": ["deser", "bez laktozy", "dietetyczne"]
             },
             {
                 "name": "Złote Jabłko",
@@ -232,7 +232,7 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Golden_Apple_JE2_BE2.png?aa827",
-                "tags": []
+                "tags": ["deser", "bez laktozy"]
             },
             {
                 "name": "Złota Marchewka",
@@ -243,7 +243,7 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Golden_Carrot_JE4_BE2.png?43b25",
-                "tags": []
+                "tags": ["bez laktozy", "dietetyczne", "przekąska"]
             },
             {
                 "name": "Pieczona Baranina",
@@ -254,7 +254,7 @@
                 "czas": "5s",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Cooked_Mutton_JE3_BE2.png?fcd19",
-                "tags": []
+                "tags": ["mięso", "bez laktozy", "bez glutenu", "obiad"]
             },
             {
                 "name": "Pieczony Schab",
@@ -265,7 +265,7 @@
                 "czas": "5s",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Cooked_Porkchop_JE4_BE3.png?d99d3",
-                "tags": []
+                "tags": ["mięso", "bez laktozy", "bez glutenu", "obiad"]
             },
             {
                 "name": "Pieczony Łosoś",
@@ -276,7 +276,7 @@
                 "czas": "5s",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Cooked_Salmon_JE2_BE2.png?e7309",
-                "tags": []
+                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja"]
             },
             {
                 "name": "Stek",
@@ -287,7 +287,7 @@
                 "czas": "5s",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Steak_JE4_BE3.png?45317",
-                "tags": []
+                "tags": ["mięso", "bez laktozy", "bez glutenu", "obiad"]
             },
             {
                 "name": "Chleb",
@@ -298,7 +298,7 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Bread_JE3_BE3.png?e1046",
-                "tags": []
+                "tags": ["bez laktozy", "dietetyczne", "przekąska"]
             },
             {
                 "name": "Suszone Wodorosty",
@@ -309,7 +309,7 @@
                 "czas": "5s",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Dried_Kelp_JE1_BE2.png?441be",
-                "tags": []
+                "tags": ["owoce morza", "dietetyczne", "przekąska", "bez glutenu", "bez laktozy", "bez orzechów"]
             },
             {
                 "name": "Pieczony Kurczak",
@@ -320,7 +320,7 @@
                 "czas": "5s",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Cooked_Chicken_JE3_BE3.png?3f3d8",
-                "tags": []
+                "tags": ["mięso", "obiad", "bez glutenu", "bez laktozy", "bez orzechów"]
             },
             {
                 "name": "Pieczony Dorsz",
@@ -331,7 +331,7 @@
                 "czas": "5s",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Cooked_Cod_JE4_BE3.png?b495d",
-                "tags": []
+                "tags": ["owoce morza", "obiad", "bez glutenu", "bez laktozy", "bez orzechów"]
             },
             {
                 "name": "Pieczony Królik",
@@ -342,7 +342,7 @@
                 "czas": "5s",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Cooked_Rabbit_JE3_BE2.png?ec522",
-                "tags": []
+                "tags": ["mięso", "obiad", "bez glutenu", "bez laktozy", "bez orzechów"]
             },
             {
                 "name": "Gulasz Grzybowy",
@@ -353,7 +353,7 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Mushroom_Stew_JE2_BE2.png?57ddf",
-                "tags": []
+                "tags": ["dietetyczne", "przekąska", "bez glutenu", "bez laktozy", "bez orzechów"]
             },
             {
                 "name": "Podejrzany Gulasz",
@@ -364,7 +364,7 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Suspicious_Stew_JE1_BE1.png?d4da8",
-                "tags": []
+                "tags": ["dietetyczne", "przekąska", "bez glutenu", "bez laktozy", "bez orzechów"]
             },
             {
                 "name": "Ciasto Dyniowe",
@@ -375,7 +375,7 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Pumpkin_Pie_JE2_BE2.png?d7f38",
-                "tags": []
+                "tags": ["deser", "dietetyczne", "bez glutenu", "bez orzechów"]
             },
             {
                 "name": "Ciasto",
@@ -386,7 +386,7 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/thumb/Cake_JE4.png/150px-Cake_JE4.png?009f2",
-                "tags": []
+                "tags": ["deser", "śniadanie", "bez orzechów"]
             },
             {
                 "name": "Ciasteczko",
@@ -397,7 +397,7 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Cookie_JE2_BE2.png?a911c",
-                "tags": []
+                "tags": ["deser", "przekąska", "bez orzechów"]
             },
             {
                 "name": "Butelka Miodu",
@@ -408,7 +408,7 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://minecraft.wiki/images/Honey_Bottle_JE1_BE2.png?78afc",
-                "tags": []
+                "tags": ["napój", "dietetyczne", "bez glutenu", "bez laktozy", "bez orzechów"]
             }
         ]
     },
