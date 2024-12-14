@@ -130,6 +130,7 @@ footer{
     float: left;
     margin-left: 20px;
     max-width: 60%;
+    font-size: 2vh;
 }
 p{
     margin: 0;
