@@ -65,13 +65,12 @@ footer{
     border-radius: 10px;
     cursor: pointer;
     margin: 10px;
-    transition: filter 0.4s;
     height: 20vh;
     width: 16vw;
     margin-top: 0.5vw;
     margin-bottom: 0.5vw;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s;
 }
 .gry:hover{
     transform: scale(1.05);
