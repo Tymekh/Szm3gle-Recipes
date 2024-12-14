@@ -32,12 +32,14 @@ function gameList(){
     <p class="opis">
         Witaj na stronie pełnej pysznych i łatwych przepisów z gier komputerowych! Znajdziesz tu różnorodne propozycje na dania, które możesz przygotować w zaciszu swojej bazy. Niezależnie od tego, czy szukasz inspiracji na szybki obiad, czy chcesz się szybko uleczyć – mamy coś dla Ciebie. Przeglądaj przepisy, poznawaj nowe schematy w kuchni i ciesz się bonusami!
     </p>`;
+    updateTitle("Przepisy");
+    document.getElementsByClassName("back")[0].style.visibility = "hidden";
     document.body.style.overflow = "hidden";
     let gryContainer = document.getElementsByClassName("gry-container")[0];
     
-    console.log(data.games);
+    // console.log(data.games);
     data.games.forEach(i => {
-        console.log(i);
+        // console.log(i);
         gryContainer.innerHTML += `<div onclick=game('${i}') class=gry style='background-image:url(${data[i].icon})'></div>`;
     });
     window.scrollTo(0, 0);
@@ -46,6 +48,7 @@ function gameList(){
 function game(idGry){
     window.scrollTo(0, 0);
     main.innerHTML = ``;
+    document.getElementsByClassName("back")[0].style.visibility = "visible";
     document.body.style.overflow = "auto";
     updateTitle(idGry);
 
@@ -67,11 +70,12 @@ function danie(idGry, idDanie){
     window.scrollTo(0, 0);
     document.body.style.overflow = "hidden";
     main.innerHTML = '';
+    document.getElementsByClassName("back")[0].style.visibility = "visible";
     let danie = data[idGry].dania[idDanie];
     updateTitle(danie.name);
 
     // history.replaceState({}, '', 'placeholder');
-    console.log(danie.przygotowanie);
+    // console.log(danie.przygotowanie);
     main.innerHTML += `<div class='item-food'><img src="${danie.obraz}" class="obraz"></img><nav class='danie-text-container'><h2>${danie.name}</h2><p>${danie.opis}</p><hr><p><b>Składniki:</b> ${danie.skladniki}</p><hr><p><b>AGD: </b>${danie.AGD}</p><hr><b>Przygotowanie:</b> <br><p>${danie.przygotowanie}</p></nav></div>`
     // main.innerHTML += "<div class='item'>"+"<img src='"+danie.obraz+"''>"+danie.name+"</div>";
     last = game.bind(null, idGry);
