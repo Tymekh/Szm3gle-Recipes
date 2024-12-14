@@ -28,32 +28,31 @@ main{
     width: 70%;
     margin: auto;
     margin-top: 0;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    min-height: calc(80vh - 80px);
+    min-height: 84vh;
 }
 footer{
     position: static;
     bottom: 0px;
     background-color: rgb(5, 47, 71);
     width: 100%;
-    height: 10vh;
+    height: 6vh;
     border-radius: 20px 20px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    /* margin-top: 29vh; */
+    font-size: 2.5vh;
+    min-height: calc(6vh - 8px);
 }
 .gry-container{
     width: calc(100% - 2vh);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 50vh;
+    height: 55vh;
     justify-content: space-evenly;
     align-items: center;
-    margin: 20px 1vh 0 1vh;
+    margin: 0 1vh 0 1vh;
 }
 .gry{
     background-position-x: center;
@@ -63,15 +62,18 @@ footer{
     filter: grayscale(100%);
     border-radius: 10px;
     cursor: pointer;
-    margin: 10px;
-    transition: filter 0.4s;
     height: 20vh;
-    width: 30vh;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    width: 16vw;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s;
 }
 .gry:hover{
-    /* background-color: rgb(183, 212, 51); */
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
     filter: grayscale(0%);
 }
 .item{
@@ -136,7 +138,7 @@ a{
     height: 100px;
     width: 100px;
 } */
- .ad{
+.ad{
     position: absolute;
     left: 0vh;
     top: 20vh;
@@ -145,8 +147,8 @@ a{
     background-image:url(./obrazy/ad.png);
     background-size: contain;
     cursor: pointer;
- }
- .back{
+}
+.back{
     position: fixed;
     left: 20px;
     width: calc(10vh - 14px);
@@ -156,7 +158,7 @@ a{
     background-color: rgb(5, 47, 71);
     padding: 7px;
     border-radius: 10px;
- }
+}
 .obraz{
     background-color: beige;
     padding: 10px;
@@ -167,7 +169,8 @@ a{
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 10px;
-    font-size: 1.25em;
+    font-size: 3vh;
+    min-height: calc(10vh - 2vh);
 }
 
 
@@ -179,14 +182,22 @@ a{
 .obracanie{
     animation: obracanie infinite 1s linear;
 }
+.skalowanie{
+    animation: skalowanie infinite 1s linear;
+}
 .znikanie{
     animation: znikanie 0.75s linear;
 }
 @keyframes obracanie {
-    from {transform: rotateZ(0deg) scale(1);}
-    from {transform: rotateZ(180deg) scale(2);}
-    from {transform: rotateZ(360deg) scale(1);}
+    from {transform: rotate(0deg) scale(1)}
+    50% {transform: rotate(180deg) scale(3)}
+    to {transform: rotate(360deg) scale(1)}
+}
+@keyframes skalowanie {
+    from {transform: scaleX(1) scaleY(3);}
+    50% {transform: scaleX(3) scaleY(1);}
+    to {transform: scaleX(1) scaleY(3);}
 }
 @keyframes znikanie {
     to {opacity: 0;}
-    }
+}
