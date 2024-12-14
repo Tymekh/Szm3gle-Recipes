@@ -1,16 +1,19 @@
  // import data from "./GPT_response.json" with {type: "json"};rr
 // import data from './GPT_response.json';
 let last;
+let data;
 let main = document.getElementsByTagName("main")[0];
-function Get_JSON(yourUrl)
-{
-    var Httpreq = new XMLHttpRequest(); // a new request
-    Httpreq.open("GET",yourUrl,false);
-    Httpreq.send(null);
-    return JSON.parse(Httpreq.responseText);
-}
-let data = Get_JSON(location.href+'/GPT_response.json')
 
+async function Get_JSON(url)
+{
+    const response = await fetch(url);
+    const json = await response.json();
+    // var Httpreq = await fetch(yourUrl); // a new request
+    // fetch(yourUrl).then(response => {console.log(response.response)});
+    // Httpreq.open("GET",yourUrl,false);
+    // Httpreq.send(null);
+    return await json;
+}
 
 function updateTitle(text){
     if(Object.keys(data).includes(text)){
@@ -24,14 +27,16 @@ function updateTitle(text){
 }
 
 function gameList(){
-    main.innerHTML = `
-    <div class="gry-container">
-    
-    </div>
-    <hr style="width: 90%;height: 2px; background-color: black;">
-    <p class="opis">
-        Witaj na stronie pełnej pysznych i łatwych przepisów z gier komputerowych! Znajdziesz tu różnorodne propozycje na dania, które możesz przygotować w zaciszu swojej bazy. Niezależnie od tego, czy szukasz inspiracji na szybki obiad, czy chcesz się szybko uleczyć – mamy coś dla Ciebie. Przeglądaj przepisy, poznawaj nowe schematy w kuchni i ciesz się bonusami!
-    </p>`;
+    main.innerHTML = 
+    `
+        <div class="gry-container">
+
+        </div>
+        <hr class="main-hr">
+        <p class="opis">
+            Witaj na stronie pełnej pysznych i łatwych przepisów z gier komputerowych! Znajdziesz tu różnorodne propozycje na dania, które możesz przygotować w zaciszu swojej bazy. Niezależnie od tego, czy szukasz inspiracji na szybki obiad, czy chcesz się szybko uleczyć - mamy coś dla Ciebie. Przeglądaj przepisy, poznawaj nowe schematy w kuchni i ciesz się bonusami!
+        </p>
+    `;
     updateTitle("Przepisy");
     document.getElementsByClassName("back")[0].style.visibility = "hidden";
     document.getElementsByClassName("filtry")[0].style.display = "block";
@@ -83,9 +88,6 @@ function danie(idGry, idDanie){
     last = game.bind(null, idGry);
 }
 
-
-function back(){
-    last()
-}
-
-gameList(); // <---- Startowanie strony
+Get_JSON('./GPT_response.json').then((res) => data = res).then(() => {
+    gameList(); // <---- Startowanie strony
+});
