@@ -182,14 +182,22 @@ a{
 .obracanie{
     animation: obracanie infinite 1s linear;
 }
+.skalowanie{
+    animation: skalowanie infinite 1s linear;
+}
 .znikanie{
     animation: znikanie 0.75s linear;
 }
 @keyframes obracanie {
-    from {transform: rotateZ(0deg) scale(1);}
-    from {transform: rotateZ(180deg) scale(2);}
-    from {transform: rotateZ(360deg) scale(1);}
+    from {transform: rotate(0deg) scale(1)}
+    50% {transform: rotate(180deg) scale(3)}
+    to {transform: rotate(360deg) scale(1)}
+}
+@keyframes skalowanie {
+    from {transform: scaleX(1) scaleY(3);}
+    50% {transform: scaleX(3) scaleY(1);}
+    to {transform: scaleX(1) scaleY(3);}
 }
 @keyframes znikanie {
     to {opacity: 0;}
-    }
+}
