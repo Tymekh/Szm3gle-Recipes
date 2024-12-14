@@ -1,16 +1,19 @@
  // import data from "./GPT_response.json" with {type: "json"};rr
 // import data from './GPT_response.json';
 let last;
+let data;
 let main = document.getElementsByTagName("main")[0];
-function Get_JSON(yourUrl)
-{
-    var Httpreq = new XMLHttpRequest(); // a new request
-    Httpreq.open("GET",yourUrl,false);
-    Httpreq.send(null);
-    return JSON.parse(Httpreq.responseText);
-}
-let data = Get_JSON(location.href+'/GPT_response.json')
 
+async function Get_JSON(url)
+{
+    const response = await fetch(url);
+    const json = await response.json();
+    // var Httpreq = await fetch(yourUrl); // a new request
+    // fetch(yourUrl).then(response => {console.log(response.response)});
+    // Httpreq.open("GET",yourUrl,false);
+    // Httpreq.send(null);
+    return await json;
+}
 
 function updateTitle(text){
     if(Object.keys(data).includes(text)){
@@ -81,9 +84,6 @@ function danie(idGry, idDanie){
     last = game.bind(null, idGry);
 }
 
-
-function back(){
-    last()
-}
-
-gameList(); // <---- Startowanie strony
+Get_JSON('./GPT_response.json').then((res) => data = res).then(() => {
+    gameList(); // <---- Startowanie strony
+});
