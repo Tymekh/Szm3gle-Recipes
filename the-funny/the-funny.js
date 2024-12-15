@@ -38,7 +38,7 @@ function fun(){
     if (Math.random() > 0.5) do_dodania.x = -do_dodania.x;
     if (Math.random() > 0.5) do_dodania.y = -do_dodania.y;
 
-    let interval = setInterval(() => {
+    setInterval(() => {
         let a = pozycje[0].x + do_dodania.x;
         let b = pozycje[0].y + do_dodania.y;
 
@@ -79,7 +79,7 @@ function fun2(){
         document.getElementsByTagName("body")[0].appendChild(divy[i]);
     }
 
-    let interval = setInterval(() => {
+    setInterval(() => {
         for (const i in divy){
             divy[i].style.top = pozycje[i].y + do_dodania[i].y + "px";
             divy[i].style.left = pozycje[i].x + do_dodania[i].x + "px";
@@ -103,7 +103,7 @@ function zabawa(){
     div.style.width = window.innerWidth + "px";
     div.style.left = "0px";
     div.style.top = "0px";
-    div.style.zIndex = 20;
+    div.style.zIndex = 21;
     div.style.pointerEvents = "none";
     document.getElementsByTagName("body")[0].appendChild(div);
 
@@ -117,7 +117,6 @@ function zabawa(){
 
 function zabawa2(){
     let losowa = Math.random() * 3500 + 500;
-    console.log(losowa);
 
     let div = document.createElement("div");
     div.style.position = "fixed";
