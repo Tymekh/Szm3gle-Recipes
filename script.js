@@ -114,3 +114,13 @@ Get_JSON('./GPT_response.json').then((res) => data = res).then(() => { // <--- Å
     gameList(); // <---- Startowanie strony
     search(["bez laktozy", "przekÄ…ska"])
 });
+
+// document.body.addEventListener("click", () => {
+//     data.games.forEach(element => {
+//         data[element].dania.forEach(ele => {
+//             ele.tags.forEach(e => {
+//                 if (!(data.tags.includes(e))) console.log(ele);
+//             });
+//         });
+//     });
+// });
