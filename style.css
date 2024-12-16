@@ -54,23 +54,34 @@ aside > h1{
 #wyszukiwanie > h1{
     width: 100%;
     text-align: center;
+    font-size: 2.5vh;
     margin: 1vh 0 1vh 0;
 }
 #wyszukiwanie > hr{
-    margin: 1vh 0 0 0;
+    margin: 1vh auto 0 auto;
+    width: 70%;
+    border: 0;
+    height: 0.1vh;
+    background-color: white;
 }
 #wyszukiwanie > label{
     font-size: 2.5vh;
     margin-left: 0.5vw;
+    display: block;
 }
 #wyszukiwanie > label > input[type=checkbox]{
     width: 1.3vh;
     height: 1.3vh;
+    margin: 0 0.5vw 0 0;
 }
 #wyszukiwanie > input[type=button]{
     width: 50%;
-    margin: 0 25% 0 25%;
+    margin: 2vh 25% 0 25%;
+    padding: 0.5vh;
     font-size: 2.5vh;
+    border-radius: 0.5vh;
+    border: 0.2vh black solid;
+    background-color: rgb(199, 199, 199);
 }
 footer{
     position: static;

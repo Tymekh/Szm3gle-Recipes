@@ -162,7 +162,7 @@ function displayFiltry(){
     wyszukiwanie.innerHTML += "<hr>";
     wyszukiwanie.innerHTML += "<h1>Tagi:</h1>";
     data.tags.forEach(element => {
-        wyszukiwanie.innerHTML += "<label><input type='checkbox' id='"+element+"'>"+element+"</label><br>";
+        wyszukiwanie.innerHTML += "<label><input type='checkbox' style='border: 0; border-radius: 0;' id='"+element+"'>"+element+"</label>";
     });
     wyszukiwanie.innerHTML += "<input type='button' value='Wyszukaj' onclick='displayTags()'>"
 }
