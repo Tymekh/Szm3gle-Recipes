@@ -1,8 +1,10 @@
  // import data from "./GPT_response.json" with {type: "json"};rr
 // import data from './GPT_response.json';
-let last;
-let data;
 let main = document.getElementsByTagName("main")[0];
+let data;
+let foodList;
+let pastFun = [];
+// let current;
 
 async function Get_JSON(url)
 {
@@ -40,7 +42,6 @@ function displayGameList(){
         </p>
     `;
     updateTitle("Przepisy");
-    pokazFiltry();
     document.getElementsByClassName("back")[0].style.visibility = "hidden";
     document.getElementsByClassName("filtry")[0].style.display = "block";
     document.body.style.overflow = "hidden";
@@ -52,6 +53,7 @@ function displayGameList(){
         gryContainer.innerHTML += `<div onclick=displayGame('${i}') class=gry style='background-image:url(${data[i].icon})'></div>`;
     });
     window.scrollTo(0, 0);
+    pushBack(displayGameList.bind(null))
 }
 
 function displayGame(idGry){
@@ -72,27 +74,31 @@ function displayGame(idGry){
             opis = opis.slice(0, 157);
             opis += "...";
         }
-    
-        main.innerHTML += `<div class='item' onclick="displayDanie('${idGry}', '${i}')"><img src="${danieObj.obraz}"></img><nav class='item-text-container'><h2>${danieObj.name}</h2><p>${opis}</p></nav></div>`
+        // console.log(data[idGry].dania[i])
+        let ele = foodList.findIndex(ele => ele === data[idGry].dania[i])
+        main.innerHTML += `<div class='item' onclick="displayDanie(${ele})"><img src="${danieObj.obraz}"></img><nav class='item-text-container'><h2>${danieObj.name}</h2><p>${opis}</p></nav></div>`
     }
-    last = displayGameList.bind(null);
+    pushBack(displayGame.bind(null,idGry));
 }
 
-function displayDanie(idGry, idDanie){
+function displayDanie(danie){
+    // console.log(`idGry: ${idGry}, idDanie: ${idDanie}`)
+    danie = foodList[danie]
     window.scrollTo(0, 0);
     main.style.padding = "3vh 0 3vh 0";
     main.style.minHeight= "78vh";
     document.body.style.overflow = "hidden";
     main.innerHTML = '';
     document.getElementsByClassName("back")[0].style.visibility = "visible";
-    let danie = data[idGry].dania[idDanie];
+    // let danie = data[idGry].dania[idDanie];
+    console.log(danie);
     updateTitle(danie.name);
 
     // history.replaceState({}, '', 'placeholder');
     // console.log(danie.przygotowanie);
     main.innerHTML += `<div class='item-food'><img src="${danie.obraz}" class="obraz"></img><nav class='danie-text-container'><h2>${danie.name}</h2><p>${danie.opis}</p><hr><p><b>Składniki:</b> ${danie.skladniki}</p><hr><p><b>AGD: </b>${danie.AGD}</p><hr><b>Przygotowanie:</b> <br><p>${danie.przygotowanie}</p></nav></div>`
     // main.innerHTML += "<div class='item'>"+"<img src='"+danie.obraz+"''>"+danie.name+"</div>";
-    last = displayGame.bind(null, idGry);
+    pushBack(displayDanie.bind(null, danie));
 }
 
 function search(tag, game = []){
@@ -114,8 +120,15 @@ function search(tag, game = []){
 }
 
 function displayTags(){
-    tags = ["bez laktozy", "przekąska"]
-    games = []
+    const games = Array.from(document.getElementById("wyszukiwanie").querySelectorAll("input")).reduce((acc, ele) => {
+        return acc.concat(ele = data.games.includes(ele.id) && ele.checked ? ele.id : [])
+    }, [])
+    const tags = Array.from(document.getElementById("wyszukiwanie").querySelectorAll("input")).reduce((acc, ele) => {
+        return acc.concat(ele = data.tags.includes(ele.id) && ele.checked ? ele.id : [])
+    }, [])
+    console.log(games)
+    // let tags = ["bez laktozy", "przekąska"]
+    // games = []
 
     window.scrollTo(0, 0);
     main.style.padding = "3vh 0 3vh 0";
@@ -133,28 +146,45 @@ function displayTags(){
             opis += "...";
         }
     
-        main.innerHTML += `<div class='item' onclick="displayDanie('${ele.gra}', '${ele}')"><img src="${ele.obraz}"></img><nav class='item-text-container'><h2>${ele.name}</h2><p>${opis}</p></nav></div>`
+        let eleId = foodList.findIndex(e => e === ele)
+        main.innerHTML += `<div class='item' onclick="displayDanie('${eleId}')"><img src="${ele.obraz}"></img><nav class='item-text-container'><h2>${ele.name}</h2><p>${opis}</p></nav></div>`
     });
-    last = displayGameList.bind(null);
+    pushBack(displayTags.bind(null));
 }
 
 
-function pokazFiltry(){
+function displayFiltry(){
     let wyszukiwanie = document.getElementById("wyszukiwanie")
     wyszukiwanie.innerHTML += "<h1>Gry:</h1>";
     data.games.forEach(element => {
-        wyszukiwanie.innerHTML += "<label><input type='checkbox' name='"+element+"'>"+data[element].gra+"</label><br>";
+        wyszukiwanie.innerHTML += "<label><input type='checkbox' id='"+element+"'>"+data[element].gra+"</label><br>";
     });
     wyszukiwanie.innerHTML += "<hr>";
     wyszukiwanie.innerHTML += "<h1>Tagi:</h1>";
     data.tags.forEach(element => {
-        wyszukiwanie.innerHTML += "<label><input type='checkbox' name='"+element+"'>"+element+"</label><br>";
+        wyszukiwanie.innerHTML += "<label><input type='checkbox' id='"+element+"'>"+element+"</label><br>";
     });
-    wyszukiwanie.innerHTML += "<input type='button' value='Wyszukaj'>"
+    wyszukiwanie.innerHTML += "<input type='button' value='Wyszukaj' onclick='displayTags()'>"
+}
+
+function pushBack(fun){
+    // console.log(fun);
+    pastFun.unshift(fun);
+}
+
+function last(){
+    // console.log(pastFun.at(-1))
+    pastFun.at(1)();
+    pastFun.shift()
+    pastFun.shift()
 }
 
 Get_JSON('./GPT_response.json').then((res) => data = res).then(() => { // <--- ładuje json'a i przypisuje do zmiennej data
     displayGameList(); // <---- Startowanie strony
+    displayFiltry();
+    foodList = data.games.reduce((acc, ele) => {
+        return acc.concat(data[ele].dania)
+    }, [])
 });
 
 
