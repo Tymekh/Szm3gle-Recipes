@@ -35,12 +35,42 @@ main{
 }
 aside{
     float: left;
-    width: 13%;
-    min-height: 83.7vh;
-    background-color: rgba(257, 247, 247, 0.2);
-    margin-left: 1%;
-    margin-right: 1%;
-    border: 0.1vw white solid;
+    width: calc(13% - 0.4vh);
+    height: calc(84vh - 0.4vh - 2vw);
+    background-color: rgba(257, 247, 247, 0.4);
+    margin: 1vw;
+    border: 0.2vh white solid;
+}
+aside > h1{
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    font-size: 3vh;
+    padding: 2vh;
+}
+#wyszukiwanie{
+    width: 100%;
+}
+#wyszukiwanie > h1{
+    width: 100%;
+    text-align: center;
+    margin: 1vh 0 1vh 0;
+}
+#wyszukiwanie > hr{
+    margin: 1vh 0 0 0;
+}
+#wyszukiwanie > label{
+    font-size: 2.5vh;
+    margin-left: 0.5vw;
+}
+#wyszukiwanie > label > input[type=checkbox]{
+    width: 1.3vh;
+    height: 1.3vh;
+}
+#wyszukiwanie > input[type=button]{
+    width: 50%;
+    margin: 0 25% 0 25%;
+    font-size: 2.5vh;
 }
 footer{
     position: static;

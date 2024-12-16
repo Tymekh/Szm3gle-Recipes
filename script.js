@@ -32,7 +32,7 @@ function displayGameList(){
     main.innerHTML = 
     `
         <div class="gry-container">
-
+            
         </div>
         <hr class="main-hr">
         <p class="opis">
@@ -40,6 +40,7 @@ function displayGameList(){
         </p>
     `;
     updateTitle("Przepisy");
+    pokazFiltry();
     document.getElementsByClassName("back")[0].style.visibility = "hidden";
     document.getElementsByClassName("filtry")[0].style.display = "block";
     document.body.style.overflow = "hidden";
@@ -132,9 +133,25 @@ function displayTags(){
     last = displayGameList.bind(null);
 }
 
+
+function pokazFiltry(){
+    let wyszukiwanie = document.getElementById("wyszukiwanie")
+    wyszukiwanie.innerHTML += "<h1>Gry:</h1>";
+    data.games.forEach(element => {
+        wyszukiwanie.innerHTML += "<label><input type='checkbox' name='"+element+"'>"+data[element].gra+"</label><br>";
+    });
+    wyszukiwanie.innerHTML += "<hr>";
+    wyszukiwanie.innerHTML += "<h1>Tagi:</h1>";
+    data.tags.forEach(element => {
+        wyszukiwanie.innerHTML += "<label><input type='checkbox' name='"+element+"'>"+element+"</label><br>";
+    });
+    wyszukiwanie.innerHTML += "<input type='button' value='Wyszukaj'>"
+}
+
 Get_JSON('./GPT_response.json').then((res) => data = res).then(() => { // <--- ładuje json'a i przypisuje do zmiennej data
     displayGameList(); // <---- Startowanie strony
 });
+
 
 // document.body.addEventListener("click", () => {
 //     data.games.forEach(element => {
