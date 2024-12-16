@@ -88,6 +88,23 @@ function danie(idGry, idDanie){
     last = game.bind(null, idGry);
 }
 
-Get_JSON('./GPT_response.json').then((res) => data = res).then(() => {
+
+function search(tag){
+    const foodList = data.games.reduce((acc, ele) => {
+        return acc.concat(data[ele].dania)
+    }, []);
+    
+    console.log(foodList);
+
+    const foodWithTags = tag.reduce((a, e) => {
+        return a.concat(foodList.reduce((acc, ele) => {
+            return acc.concat(ele = ele.tags.includes(e) ? ele : [])
+        }, []))
+    }, []) 
+    console.log(foodWithTags)
+}
+
+Get_JSON('./GPT_response.json').then((res) => data = res).then(() => { // <--- ładuje json'a i przypisuje do zmiennej data
     gameList(); // <---- Startowanie strony
+    search(["bez laktozy", "przekąska"])
 });
