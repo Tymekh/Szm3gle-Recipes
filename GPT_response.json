@@ -60,7 +60,8 @@
                 "czas": "",
                 "przygotowanie": "",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Mango_Sticky_Rice.png",
-                "tags": ["bez glutenu", "bez orzechów", "deser", "bez laktozy"]
+                "tags": ["bez glutenu", "bez orzechów", "deser", "bez laktozy"],
+                "gra": "Stardew Valley"
             },
             {
                 "name": "Koktajl Krewetkowy",
@@ -473,7 +474,8 @@
                 "czas": "10s",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/9/96/Banana_Shake.png",
-                "tags": ["napój", "deser", "dietetyczne", "bez glutenu", "bez laktozy"]
+                "tags": ["napój", "deser", "dietetyczne", "bez glutenu", "bez laktozy"],
+                "gra": "Dont_Starve"
             },
             {
                 "name": "Meaty Stew",
@@ -484,7 +486,8 @@
                 "czas": "15s",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/1/18/Meaty_Stew_Build.png",
-                "tags": ["mięso", "obiad", "kolacja", "bez glutenu", "bez laktozy"]
+                "tags": ["mięso", "obiad", "kolacja", "bez glutenu", "bez laktozy"],
+                "gra": "Dont_Starve"
             },
             {
                 "name": "Waffles",
@@ -495,7 +498,8 @@
                 "czas": "10s",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/e/e8/Waffles.png",
-                "tags": ["deser", "śniadanie", "bez glutenu"]
+                "tags": ["deser", "śniadanie", "bez glutenu"],
+                "gra": "Dont_Starve"
             },
             {
                 "name": "Stuffed Night Cap",
@@ -506,7 +510,8 @@
                 "czas": "20s",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/8/83/Stuffed_Night_Cap.png",
-                "tags": ["mięso", "obiad", "bez glutenu", "bez laktozy"]
+                "tags": ["mięso", "obiad", "bez glutenu", "bez laktozy"],
+                "gra": "Dont_Starve"
             },
             {
                 "name": "Steamed Twigs",
@@ -517,7 +522,8 @@
                 "czas": "10s",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/c/c6/Steamed_Twigs.png",
-                "tags": ["dietetyczne", "przekąska", "bez glutenu", "bez laktozy"]
+                "tags": ["dietetyczne", "przekąska", "bez glutenu", "bez laktozy"],
+                "gra": "Dont_Starve"
             },
             {
                 "name": "Pierogi",
@@ -528,7 +534,8 @@
                 "czas": "20s",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/9/91/Pierogi.png",
-                "tags": ["mięso", "obiad", "bez glutenu", "bez laktozy"]
+                "tags": ["mięso", "obiad", "bez glutenu", "bez laktozy"],
+                "gra": "Dont_Starve"
             },
             {
                 "name": "Mushy Cake",
@@ -539,7 +546,8 @@
                 "czas": "20s",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/dont-starve-game/images/8/8c/Mushy_Cake.png",
-                "tags": ["deser", "przekąska", "bez glutenu", "bez laktozy", "dietetyczne"]
+                "tags": ["deser", "przekąska", "bez glutenu", "bez laktozy", "dietetyczne"],
+                "gra": "Dont_Starve"
             }        
         ]
     },
@@ -556,7 +564,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://dodo.ac/np/images/4/42/Poke_NH_Icon.png",
-                "tags": ["owoce morza", "obiad", "kolacja", "dietetyczne", "bez laktozy", "bez glutenu"]
+                "tags": ["owoce morza", "obiad", "kolacja", "dietetyczne", "bez laktozy", "bez glutenu"],
+                "gra": "Animal_Crossing"
             },
             {
                 "name": "Pumpkin Cupcakes",
@@ -567,7 +576,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://dodo.ac/np/images/b/be/Pumpkin_Cupcakes_NH_Icon.png",
-                "tags": ["deser", "przekąska"]
+                "tags": ["deser", "przekąska"],
+                "gra": "Animal_Crossing"
             },
             {
                 "name": "Squid-Ink Spaghetti",
@@ -578,7 +588,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://dodo.ac/np/images/6/68/Squid-Ink_Spaghetti_NH_Icon.png",
-                "tags": ["owoce morza", "obiad", "kolacja", "bez laktozy"]
+                "tags": ["owoce morza", "obiad", "kolacja", "bez laktozy"],
+                "gra": "Animal_Crossing"
             },
             {
                 "name": "Veggie Crepe",
@@ -589,7 +600,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://dodo.ac/np/images/0/0a/Veggie_Crepe_NH_Icon.png",
-                "tags": ["śniadanie", "przekąska", "dietetyczne"]
+                "tags": ["śniadanie", "przekąska", "dietetyczne"],
+                "gra": "Animal_Crossing"
             },
             {
                 "name": "Salmon Bagel Sandwich",
@@ -600,7 +612,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://dodo.ac/np/images/a/a7/Salmon_Bagel_Sandwich_NH_Icon.png",
-                "tags": ["owoce morza", "śniadanie", "przekąska", "bez laktozy"]
+                "tags": ["owoce morza", "śniadanie", "przekąska", "bez laktozy"],
+                "gra": "Animal_Crossing"
             },
             {
                 "name": "Olive-Flounder Meunière",
@@ -611,7 +624,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://dodo.ac/np/images/d/d1/Olive-Flounder_Meuni%C3%A8re_NH_Icon.png",
-                "tags": ["owoce morza", "obiad", "kolacja", "bez laktozy"]
+                "tags": ["owoce morza", "obiad", "kolacja", "bez laktozy"],
+                "gra": "Animal_Crossing"
             },
             {
                 "name": "Coconut Cookies",
@@ -622,7 +636,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://dodo.ac/np/images/c/c3/Coconut_Cookies_NH_Icon.png",
-                "tags": ["deser", "przekąska"]
+                "tags": ["deser", "przekąska"],
+                "gra": "Animal_Crossing"
             },
             {
                 "name": "Frosted Pretzels",
@@ -633,7 +648,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://dodo.ac/np/images/9/92/Frosted_Pretzels_NH_Icon.png",
-                "tags": ["przekąska", "deser"]
+                "tags": ["przekąska", "deser"],
+                "gra": "Animal_Crossing"
             },
             {
                 "name": "Grilled Sea Bass with Herbs",
@@ -644,7 +660,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://dodo.ac/np/images/5/5b/Grilled_Sea_Bass_with_Herbs_NH_Icon.png",
-                "tags": ["owoce morza", "obiad", "kolacja", "bez laktozy", "dietetyczne"]
+                "tags": ["owoce morza", "obiad", "kolacja", "bez laktozy", "dietetyczne"],
+                "gra": "Animal_Crossing"
             },
             {
                 "name": "Orange Jelly",
@@ -655,7 +672,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://dodo.ac/np/images/e/e2/Orange_Jelly_NH_Icon.png",
-                "tags": ["deser", "przekąska", "dietetyczne", "bez glutenu", "bez laktozy"]
+                "tags": ["deser", "przekąska", "dietetyczne", "bez glutenu", "bez laktozy"],
+                "gra": "Animal_Crossing"
             }
         ]                
     },
@@ -672,7 +690,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Item_Delicious_Chicken_Tofu_Pudding.png",
-                "tags": ["mięso", "kolacja", "dietetyczne", "bez glutenu"]
+                "tags": ["mięso", "kolacja", "dietetyczne", "bez glutenu"],
+                "gra": "Genshin_Impact"
             },
             {
                 "name": "Golden Shrimp Balls",
@@ -683,7 +702,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Item_Golden_Shrimp_Balls.png",
-                "tags": ["owoce morza", "przekąska", "kolacja"]
+                "tags": ["owoce morza", "przekąska", "kolacja"],
+                "gra": "Genshin_Impact"
             },
             {
                 "name": "Volcano Cake",
@@ -694,7 +714,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/c/c6/Item_Delicious_Volcano_Cake.png",
-                "tags": ["deser"]
+                "tags": ["deser"],
+                "gra": "Genshin_Impact"
             },
             {
                 "name": "Stir-Fried Fish Noodles",
@@ -705,7 +726,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Delicious_Stir-Fried_Fish_Noodles.png",
-                "tags": ["owoce morza", "obiad", "kolacja", "bez laktozy"]
+                "tags": ["owoce morza", "obiad", "kolacja", "bez laktozy"],
+                "gra": "Genshin_Impact"
             },
             {
                 "name": "Triple-Layered Consommé",
@@ -716,7 +738,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Delicious_Triple-Layered_Consomm%C3%A9.png",
-                "tags": ["mięso", "obiad", "kolacja"]
+                "tags": ["mięso", "obiad", "kolacja"],
+                "gra": "Genshin_Impact"
             },
             {
                 "name": "Five Pickled Treasures",
@@ -727,7 +750,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/b/b4/Item_Delicious_Five_Pickled_Treasures.png",
-                "tags": ["przekąska", "dietetyczne", "bez glutenu", "bez laktozy"]
+                "tags": ["przekąska", "dietetyczne", "bez glutenu", "bez laktozy"],
+                "gra": "Genshin_Impact"
             },
             {
                 "name": "Grilled Fish in Mint Sauce",
@@ -738,7 +762,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Item_Grilled_Fish_in_Mint_Sauce.png",
-                "tags": ["owoce morza", "kolacja", "dietetyczne", "bez laktozy"]
+                "tags": ["owoce morza", "kolacja", "dietetyczne", "bez laktozy"],
+                "gra": "Genshin_Impact"
             }
         ]                
     },
@@ -755,7 +780,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/2/22/BotW_Seafood_Curry_Icon.png",
-                "tags": ["owoce morza", "obiad", "bez laktozy", "bez glutenu"]
+                "tags": ["owoce morza", "obiad", "bez laktozy", "bez glutenu"],
+                "gra": "Zelda"
             },
             {
                 "name": "Roasted Swift Carrot",
@@ -766,7 +792,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/2/24/BotW_Roasted_Swift_Carrot_Icon.png",
-                "tags": ["dietetyczne", "przekąska", "bez glutenu", "bez laktozy"]
+                "tags": ["dietetyczne", "przekąska", "bez glutenu", "bez laktozy"],
+                "gra": "Zelda"
             },
             {
                 "name": "Frozen Bird Drumstick",
@@ -777,7 +804,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/6/6a/BotW_Frozen_Bird_Drumstick_Icon.png",
-                "tags": ["mięso", "przekąska", "bez laktozy", "bez glutenu"]
+                "tags": ["mięso", "przekąska", "bez laktozy", "bez glutenu"],
+                "gra": "Zelda"
             },
             {
                 "name": "Prime Meat and Seafood Fry",
@@ -788,7 +816,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/f/fc/BotW_Prime_Meat_and_Seafood_Fry_Icon.png",
-                "tags": ["mięso", "owoce morza", "obiad", "bez glutenu"]
+                "tags": ["mięso", "owoce morza", "obiad", "bez glutenu"],
+                "gra": "Zelda"
             },
             {
                 "name": "Roasted Wildberry",
@@ -799,7 +828,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/2/2f/BotW_Roasted_Wildberry_Icon.png/",
-                "tags": ["deser", "przekąska", "bez glutenu", "bez laktozy"]
+                "tags": ["deser", "przekąska", "bez glutenu", "bez laktozy"],
+                "gra": "Zelda"
             },
             {
                 "name": "Curry Rice",
@@ -810,7 +840,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/d/d0/BotW_Curry_Rice_Icon.png",
-                "tags": ["obiad", "bez laktozy", "bez glutenu"]
+                "tags": ["obiad", "bez laktozy", "bez glutenu"],
+                "gra": "Zelda"
             },
             {
                 "name": "Fish Pie",
@@ -821,7 +852,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/e/ed/BotW_Fish_Pie_Icon.png",
-                "tags": ["owoce morza", "obiad", "kolacja"]
+                "tags": ["owoce morza", "obiad", "kolacja"],
+                "gra": "Zelda"
             },
             {
                 "name": "Creamy Heart Soup",
@@ -832,7 +864,8 @@
                 "czas": "-",
                 "przygotowanie": "",
                 "obraz": "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/2/21/BotW_Creamy_Heart_Soup_Icon.png",
-                "tags": ["kolacja", "bez glutenu"]
+                "tags": ["kolacja", "bez glutenu"],
+                "gra": "Zelda"
             }
         ]   
     },
@@ -849,7 +882,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/0/03/BBQ.png",
                 "opis": "Gdy owoce stają się nudne.",
                 "przygotowanie": "",
-                "tags": ["mięso", "owoce morza", "kolacja"]
+                "tags": ["mięso", "owoce morza", "kolacja"],
+                "gra": "Raft"
             },
             {
                 "name": "Deluxe z Sumem",
@@ -860,7 +894,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/f/fc/Catfish_Deluxe.png",
                 "opis": "Przepis, który można ugotować w garnku. Sprawia, że biegniesz szybciej.",
                 "przygotowanie": "",
-                "tags": ["mięso", "owoce morza", "dietetyczne", "obiad"]
+                "tags": ["mięso", "owoce morza", "dietetyczne", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Kokosowy Kurczak",
@@ -871,7 +906,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/c/c1/Coconut_Chicken.png",
                 "opis": "Pyszny kurczak gotowany w mleku kokosowym.",
                 "przygotowanie": "",
-                "tags": ["mięso", "kolacja"]
+                "tags": ["mięso", "kolacja"],
+                "gra": "Raft"
             },
             {
                 "name": "Udka z Konfiturą",
@@ -882,7 +918,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/1/1c/Recipe_Drumstick_with_Jam.png",
                 "opis": "... kto wymyślił ten przepis?",
                 "przygotowanie": "",
-                "tags": ["mięso", "kolacja"]
+                "tags": ["mięso", "kolacja"],
+                "gra": "Raft"
             },
             {
                 "name": "Gulasz Rybny",
@@ -893,7 +930,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/6/6f/Fish_Stew.png",
                 "opis": "Bardziej sycąca i smaczna zupa rybna.",
                 "przygotowanie": "",
-                "tags": ["owoce morza", "obiad"]
+                "tags": ["owoce morza", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Rosół z Rozdymką",
@@ -904,7 +942,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/6/6c/Head_Broth.png",
                 "opis": "Trochę przerażający, ale odżywczy wywar.",
                 "przygotowanie": "",
-                "tags": ["owoce morza", "dietetyczne", "kolacja"]
+                "tags": ["owoce morza", "dietetyczne", "kolacja"],
+                "gra": "Raft"
             },
             {
                 "name": "Pożywny Gulasz",
@@ -915,7 +954,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/1/15/Hearty_Stew.png",
                 "opis": "Tajemniczy gulasz pozwalający uniknąć śmierci, raz.",
                 "przygotowanie": "",
-                "tags": ["mięso", "obiad"]
+                "tags": ["mięso", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Omlet Grzybowy",
@@ -926,7 +966,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/b/b7/Mushroom_Omelette.png",
                 "opis": "Ulubione danie społeczności śniadaniowej.",
                 "przygotowanie": "",
-                "tags": ["śniadanie", "dietetyczne"]
+                "tags": ["śniadanie", "dietetyczne"],
+                "gra": "Raft"
             },
             {
                 "name": "Sałatka z Łososia",
@@ -937,7 +978,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/7/77/Salmon_Salad.png",
                 "opis": "Zdrowa sałatka zwiększająca pojemność płuc.",
                 "przygotowanie": "",
-                "tags": ["owoce morza", "dietetyczne"]
+                "tags": ["owoce morza", "dietetyczne"],
+                "gra": "Raft"
             },
             {
                 "name": "Obiad z Rekina",
@@ -948,7 +990,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/c/c5/Shark_Dinner.png",
                 "opis": "Porcja jedzenia dla trzech osób.",
                 "przygotowanie": "",
-                "tags": ["mięso", "owoce morza", "kolacja"]
+                "tags": ["mięso", "owoce morza", "kolacja"],
+                "gra": "Raft"
             },
             {
                 "name": "Prosty Gulasz Rybny",
@@ -959,7 +1002,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/1/19/Simple_Fish_Stew.png",
                 "opis": "Pachnie rybą, ale smakuje całkiem dobrze.",
                 "przygotowanie": "",
-                "tags": ["owoce morza", "dietetyczne", "obiad"]
+                "tags": ["owoce morza", "dietetyczne", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Stek z Konfiturą",
@@ -970,7 +1014,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/3/38/Steak_with_Jam.png",
                 "opis": "Proste i konkretne danie.",
                 "przygotowanie": "",
-                "tags": ["mięso", "kolacja"]
+                "tags": ["mięso", "kolacja"],
+                "gra": "Raft"
             },
             {
                 "name": "Sushi",
@@ -981,7 +1026,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/6/6d/Sushi.png",
                 "opis": "Skąd wzięliśmy ryż?",
                 "przygotowanie": "",
-                "tags": ["owoce morza", "dietetyczne"]
+                "tags": ["owoce morza", "dietetyczne"],
+                "gra": "Raft"
             },
             {
                 "name": "Zupa Warzywna",
@@ -992,7 +1038,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/c/cd/Vegetable_Soup.png",
                 "opis": "Mieszanka warzyw, która cię rozgrzeje.",
                 "przygotowanie": "",
-                "tags": ["dietetyczne", "obiad"]
+                "tags": ["dietetyczne", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Kokosowy Sok",
@@ -1003,7 +1050,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/a/ab/Coconut_Beat.png",
                 "opis": "Przepis, który można wykonać w sokowirówce.",
                 "przygotowanie": "",
-                "tags": ["napój"]
+                "tags": ["napój"],
+                "gra": "Raft"
             },
             {
                 "name": "Mangonan",
@@ -1014,7 +1062,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/d/d0/Mangonana.png",
                 "opis": "Przepis, który można wykonać w sokowirówce.",
                 "przygotowanie": "",
-                "tags": ["napój"]
+                "tags": ["napój"],
+                "gra": "Raft"
             },
             {
                 "name": "Arbuzowy Mix",
@@ -1025,7 +1074,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/f/fa/Red_Melon.png",
                 "opis": "Przepis, który można wykonać w sokowirówce.",
                 "przygotowanie": "",
-                "tags": ["napój", "deser"]
+                "tags": ["napój", "deser"],
+                "gra": "Raft"
             },
             {
                 "name": "Shot z Buraka",
@@ -1036,7 +1086,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/a/ac/Redbeet_Shot.png",
                 "opis": "Dodaje dodatkowe serca.",
                 "przygotowanie": "",
-                "tags": ["napój", "dietetyczne"]
+                "tags": ["napój", "dietetyczne"],
+                "gra": "Raft"
             },
             {
                 "name": "Srebrne Smoothie",
@@ -1047,7 +1098,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/1/11/Silver_Smoothie.png",
                 "opis": "Przepis, który można wykonać w sokowirówce.",
                 "przygotowanie": "",
-                "tags": ["napój", "deser", "dietetyczne"]
+                "tags": ["napój", "deser", "dietetyczne"],
+                "gra": "Raft"
             },
             {
                 "name": "Proste Smoothie",
@@ -1058,7 +1110,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/8/8e/Simple_Smoothie.png",
                 "opis": "Przepis, który można wykonać w sokowirówce.",
                 "przygotowanie": "",
-                "tags": ["napój", "deser", "dietetyczne"]
+                "tags": ["napój", "deser", "dietetyczne"],
+                "gra": "Raft"
             },
             {
                 "name": "Pikantna Sosna",
@@ -1069,7 +1122,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/b/b5/Spicy_Pineberry.png",
                 "opis": "Zwiększa szybkość pływania.",
                 "przygotowanie": "",
-                "tags": ["napój", "deser", "dietetyczne"]
+                "tags": ["napój", "deser", "dietetyczne"],
+                "gra": "Raft"
             },
             {
                 "name": "Truskawkolada",
@@ -1080,7 +1134,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/1/1c/Strawberry_Colada.png",
                 "opis": "Przepis, który można wykonać w sokowirówce.",
                 "przygotowanie": "",
-                "tags": ["napój", "deser", "dietetyczne"]
+                "tags": ["napój", "deser", "dietetyczne"],
+                "gra": "Raft"
             },
             {
                 "name": "Pieczony Burak",
@@ -1091,7 +1146,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/2/2c/Cooked_Beet.png",
                 "opis": "Pieczony burak - przygotowywany na prostym grillu.",
                 "przygotowanie": "",
-                "tags": ["bez laktozy", "bez glutenu", "dietetyczne", "przekąska", "obiad"]
+                "tags": ["bez laktozy", "bez glutenu", "dietetyczne", "przekąska", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Pieczony Ziemniak",
@@ -1102,7 +1158,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/c/c2/Cooked_Potato.png",
                 "opis": "Pieczony ziemniak - przygotowywany na prostym grillu.",
                 "przygotowanie": "",
-                "tags": ["bez laktozy", "bez glutenu", "dietetyczne", "przekąska", "obiad"]
+                "tags": ["bez laktozy", "bez glutenu", "dietetyczne", "przekąska", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Pieczone Mięso Rekina",
@@ -1113,7 +1170,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/a/ab/Cooked_Shark_Meat.png",
                 "opis": "Mięso rekina - pieczone na prostym grillu.",
                 "przygotowanie": "",
-                "tags": ["mięso", "bez laktozy", "bez glutenu", "owoce morza", "kolacja", "obiad"]
+                "tags": ["mięso", "bez laktozy", "bez glutenu", "owoce morza", "kolacja", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Pieczony Śledź",
@@ -1124,7 +1182,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/5/5d/Cooked_Herring.png",
                 "opis": "Śledź - upieczony na prostym grillu.",
                 "przygotowanie": "",
-                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja", "obiad"]
+                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Pieczone xenobrama microlepis",
@@ -1135,7 +1194,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/6/63/Cooked_Pomfret.png",
                 "opis": "Xenobrama microlepis - upieczony na prostym grillu.",
                 "przygotowanie": "",
-                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja", "obiad"]
+                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Pieczona Makrela",
@@ -1146,7 +1206,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/5/52/Cooked_Mackerel.png",
                 "opis": "Makrela - upieczona na prostym grillu.",
                 "przygotowanie": "",
-                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja", "obiad"]
+                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Pieczona Tilapia",
@@ -1157,7 +1218,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/1/1d/Cooked_Tilapia.png",
                 "opis": "Tilapia - upieczona na prostym grillu.",
                 "przygotowanie": "",
-                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja", "obiad"]
+                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Pieczony Sum",
@@ -1168,7 +1230,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/d/d3/Cooked_Catfish.png",
                 "opis": "Sum - pieczony na zaawansowanym grillu.",
                 "przygotowanie": "",
-                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja", "obiad"]
+                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja", "obiad"],
+                "gra": "Raft"
             },
             {
                 "name": "Pieczony Łosoś",
@@ -1179,7 +1242,8 @@
                 "obraz": "https://static.wikia.nocookie.net/raft_gamepedia_en/images/6/69/Cooked_Salmon.png",
                 "opis": "Łosoś - pieczony na zaawansowanym grillu.",
                 "przygotowanie": "",
-                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja", "obiad"]
+                "tags": ["owoce morza", "bez laktozy", "bez glutenu", "kolacja", "obiad"],
+                "gra": "Raft"
             }
         ]
     } 

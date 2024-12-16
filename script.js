@@ -118,8 +118,13 @@ function displayTags(){
     games = []
 
     window.scrollTo(0, 0);
-    main.innerHTML = '';
+    main.style.padding = "3vh 0 3vh 0";
+    main.style.minHeight= "84vh";
+    main.innerHTML = ``;
     document.getElementsByClassName("back")[0].style.visibility = "visible";
+    document.getElementsByClassName("filtry")[0].style.display = "none";
+    document.body.style.overflow = "auto";
+    updateTitle("Wyszukiwanie");
 
     search(tags, games).forEach(ele => {
         let opis = ele.opis;
@@ -128,7 +133,7 @@ function displayTags(){
             opis += "...";
         }
     
-        main.innerHTML += `<div class='item' onclick="displayDanie('${idGry}', '${i}')"><img src="${ele.obraz}"></img><nav class='item-text-container'><h2>${ele.name}</h2><p>${opis}</p></nav></div>`
+        main.innerHTML += `<div class='item' onclick="displayDanie('${ele.gra}', '${ele}')"><img src="${ele.obraz}"></img><nav class='item-text-container'><h2>${ele.name}</h2><p>${opis}</p></nav></div>`
     });
     last = displayGameList.bind(null);
 }
