@@ -157,7 +157,7 @@ function displayFiltry(){
     let wyszukiwanie = document.getElementById("wyszukiwanie")
     wyszukiwanie.innerHTML += "<h1>Gry:</h1>";
     data.games.forEach(element => {
-        wyszukiwanie.innerHTML += "<label><input type='checkbox' id='"+element+"'>"+data[element].gra+"</label><br>";
+        wyszukiwanie.innerHTML += "<label><input type='checkbox' style='border: 0; border-radius: 0;' id='"+element+"'>"+data[element].gra+"</label>";
     });
     wyszukiwanie.innerHTML += "<hr>";
     wyszukiwanie.innerHTML += "<h1>Tagi:</h1>";
