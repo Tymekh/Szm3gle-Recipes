@@ -140,15 +140,15 @@ function displayTags(){
 
 
 function pokazFiltry(){
-    let wyszukiwanie = document.getElementById("wyszukiwanie")
-    wyszukiwanie.innerHTML += "<h1>Gry:</h1>";
+    let wyszukiwanie = document.getElementById("wyszukiwanie");
+    wyszukiwanie.innerHTML = "<h1>Gry:</h1>";
     data.games.forEach(element => {
-        wyszukiwanie.innerHTML += "<label><input type='checkbox' name='"+element+"'>"+data[element].gra+"</label><br>";
+        wyszukiwanie.innerHTML += "<label><input type='checkbox' style='border: 0; border-radius: 0;' id='"+element+"'>"+data[element].gra+"</label>";
     });
     wyszukiwanie.innerHTML += "<hr>";
     wyszukiwanie.innerHTML += "<h1>Tagi:</h1>";
     data.tags.forEach(element => {
-        wyszukiwanie.innerHTML += "<label><input type='checkbox' name='"+element+"'>"+element+"</label><br>";
+        wyszukiwanie.innerHTML += "<label><input type='checkbox' style='border: 0; border-radius: 0;' id='"+element+"'>"+element+"</label>";
     });
     wyszukiwanie.innerHTML += "<input type='button' value='Wyszukaj'>"
 }
