@@ -27,6 +27,8 @@ function updateTitle(text){
 }
 
 function gameList(){
+    main.style.padding = "0";
+    main.style.minHeight= "84vh";
     main.innerHTML = 
     `
         <div class="gry-container">
@@ -53,6 +55,8 @@ function gameList(){
 
 function game(idGry){
     window.scrollTo(0, 0);
+    main.style.padding = "3vh 0 3vh 0";
+    main.style.minHeight= "84vh";
     main.innerHTML = ``;
     document.getElementsByClassName("back")[0].style.visibility = "visible";
     document.getElementsByClassName("filtry")[0].style.display = "none";
@@ -75,6 +79,8 @@ function game(idGry){
 
 function danie(idGry, idDanie){
     window.scrollTo(0, 0);
+    main.style.padding = "3vh 0 3vh 0";
+    main.style.minHeight= "78vh";
     document.body.style.overflow = "hidden";
     main.innerHTML = '';
     document.getElementsByClassName("back")[0].style.visibility = "visible";
