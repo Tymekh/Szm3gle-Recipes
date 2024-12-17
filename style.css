@@ -36,7 +36,7 @@ main{
 aside{
     float: left;
     width: calc(13% - 0.4vh);
-    height: calc(84vh - 0.4vh - 2vw);
+    height: calc(83.6vh - 2vw);
     background-color: rgba(257, 247, 247, 0.4);
     margin: 1vw;
     border: 0.2vh white solid;

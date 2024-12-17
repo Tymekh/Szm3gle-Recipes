@@ -9,7 +9,7 @@ function theFunny(){
     zabawa2();
 }
 // WAŻNE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\/\/\/\/\/\/\/\\/\/\/\/\/\/\/\/\/\//\/\/\/ NA PROJEKT
-let obrazy = ["1.gif", "2.png", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.gif", "10.gif", "11.png", "12.png", "13.jpg", "14.jpg", "15.png", "16.png", "17.jpg", "18.jpg", "19.jpg", "20.png", "21.png", "22.jpg", "23.png", "24.gif", "25.png", "26.png", "27.png", "28.jpg", "29.png", "30.png", "31.png", "32.png", "33.png", "34.png", "35.jpg", "36.png", "37.png", "38.jpg", "39.png", "40.png", "41.png", "42.jpg", "43.jpg", "44.jpg", "45.png"];
+let obrazy = ["1.gif", "2.png", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.gif", "10.gif", "11.png", "12.png", "13.jpg", "14.jpg", "15.png", "16.png", "17.jpg", "18.jpg", "19.jpg", "20.png", "21.png", "22.jpg", "23.png", "24.gif", "25.png", "26.png", "27.png", "28.jpg", "29.png", "30.png", "31.png", "32.png", "33.png", "34.png", "35.jpg", "36.png", "37.png", "38.jpg", "39.png", "40.png", "41.png", "42.jpg", "43.jpg", "44.jpg", "45.png", "46.jpg", "47.gif", "48.gif", "49.gif", "50.gif", "51.gif", "52.png"];
 
 function fun(){
     // let ilosc = 0;
