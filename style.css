@@ -34,18 +34,24 @@ main{
     min-height: 84vh;
 }
 aside{
+    border-radius: 2vh;
     float: left;
     width: calc(13% - 0.4vh);
     height: calc(84vh - 0.4vh - 2vw);
-    background-color: rgba(257, 247, 247, 0.4);
+    background: linear-gradient(135deg, rgb(50, 50, 134), rgb(0, 0, 218));
     margin: 1vw;
-    border: 0.2vh white solid;}
+    color: white;
+}
 aside > h1{
     text-align: center;
     background-color: white;
     margin: 0;
     font-size: 3vh;
-    padding: 2vh;}
+    padding: 2vh;
+    border: rgb(255, 255, 255) solid;
+    border-radius: 2vh;
+    color: black;
+}
 #wyszukiwanie{
     width: 100%;
 }
@@ -77,9 +83,8 @@ aside > h1{
     margin: 2vh 25% 0 25%;
     padding: 0.5vh;
     font-size: 2.5vh;
-    border-radius: 0.5vh;
-    border: 0.2vh black solid;
-    background-color: rgb(199, 199, 199);
+    border-radius: 1vh;
+    background-color: white;
 }
 footer{
     position: static;
@@ -264,7 +269,7 @@ h2{
     height: 60vh;
 } 
 .pusty-wynik img{
-    max-height: 50vh;
+    max-height: 5vh;
 }
 .pusty-wynik p{
     padding-bottom: 5vh;

@@ -181,6 +181,7 @@ function displayFiltry(){
     data.tags.forEach(element => {
         wyszukiwanie.innerHTML += "<label><input type='checkbox' style='border: 0; border-radius: 0;' id='"+element+"'>"+element+"</label>";
     });
+    wyszukiwanie.innerHTML += "<hr>";
     wyszukiwanie.innerHTML += "<input type='button' value='Wyszukaj' onclick='displayTags()'>"
 }
  
