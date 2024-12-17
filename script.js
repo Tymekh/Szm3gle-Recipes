@@ -78,7 +78,7 @@ function displayGame(idGry){
         // console.log(data[idGry].dania[i])
         let ele = foodList.findIndex(ele => ele === data[idGry].dania[i])
         console.log(idGry == 'Terraria')
-        main.innerHTML += `<div class='item' onclick="displayDanie(${ele})"><img src="${danieObj.obraz}" style='${pixelGames.includes(idGry)  ? 'image-rendering: pixelated;' : ''}'></img><nav class='item-text-container'><h2>${danieObj.name}</h2><p>${opis}</p></nav></div>`
+        main.innerHTML += `<div class='item' onclick="displayDanie(${ele})"><img src="${danieObj.obraz}" style='${pixelGames.includes(idGry)  ? 'image-rendering: pixelated;' : ''}'></img><nav class='item-text-container'><h2>${danieObj.name}</h2><p>${opis}</p></nav><p class='tagi-lista'>${danieObj.tags.toString().replaceAll(",", " | ")}</p></div>`
     }
     pushFront(displayGame.bind(null,idGry));
 }

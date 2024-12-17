@@ -141,16 +141,22 @@ footer{
     background-color: cornflowerblue;
     border-radius: 1vw;
     cursor: pointer;
+    position: relative;
 }
 .item:last-child{
     margin-bottom: 0;
 }
+.item > .tagi-lista{
+    position: absolute;
+    bottom: 1vh;
+    right: 1vh;
+    font-size: 2.2vh;
+    color: white;
+}
 .item img{
     height: calc(20vh - 4vw);
     float: left;
-    clear: none;
-    /* image-rendering: pixelated; */
-/*  /\/\/\/\/\/\/\/\/\/\/\/\/\/\ poprawia pikselowe obrazki, ale nie pikselowe są wtedy brzydkie */
+    clear: none;    
     background-color: beige;
     padding: 1vw;
     border-radius: 1vw;
@@ -179,7 +185,7 @@ footer{
 }
 .item-food img{
     /* height: 70%; */
-    max-width: 40vh;
+    max-width: 20%;
     width: -webkit-fill-available;
     float: left;
     clear: none;
@@ -191,7 +197,7 @@ footer{
 .danie-text-container{
     float: left;
     margin-left: 2vw;
-    max-width: 60%;
+    max-width: 70%;
     font-size: 3vh;
 }
 p{
