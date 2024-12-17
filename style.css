@@ -191,14 +191,18 @@ footer{
     clear: none;
     box-shadow: 0px 1vw 1.2vw rgba(0, 0, 0, 0.7);
 }
-.item-food p{
+/* .item-food p{
     max-width: 70%;
-}
+} */
 .danie-text-container{
     float: left;
     margin-left: 2vw;
-    max-width: 70%;
+    width: 65%;
     font-size: 3vh;
+}
+.danie-text-container > .tagi-danie{
+    font-size: 2.75vh;
+    width: 100%;
 }
 p{
     margin: 0;

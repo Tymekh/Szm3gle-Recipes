@@ -37,7 +37,7 @@
                 "przygotowanie": "Usmaż składniki na kuchence, aby stworzyć to wyjątkowe danie.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Lucky_Lunch.png",
                 "tags": ["owoce morza", "bez laktozy", "bez orzechów", "obiad"],
-                "gra": "Stardew Valley"
+                "gra": "Stardew_Valley"
             },
             {
                 "name": "Przekąska z Pola",
@@ -49,7 +49,7 @@
                 "przygotowanie": "Wymieszaj surowce, aby uzyskać prostą przekąskę.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Field_Snack.png",
                 "tags": ["bez laktozy", "bez glutenu", "przekąska", "dietetyczne"],
-                "gra": "Stardew Valley"
+                "gra": "Stardew_Valley"
             },
             {
                 "name": "Mango z Lepkim Ryżem",
@@ -61,7 +61,7 @@
                 "przygotowanie": "Ugotuj ryż, dodaj mango i kokos, aby uzyskać słodkie i kleiste danie.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Mango_Sticky_Rice.png",
                 "tags": ["bez glutenu", "bez orzechów", "deser", "bez laktozy"],
-                "gra": "Stardew Valley"
+                "gra": "Stardew_Valley"
             },
             {
                 "name": "Koktajl Krewetkowy",
@@ -72,8 +72,8 @@
                 "czas": "",
                 "przygotowanie": "Wymieszaj wszystkie składniki, aby uzyskać świeży koktajl krewetkowy.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/8/8e/Shrimp_Cocktail.png",
-                "tags": ["owoce morza", "bez glutenu", "przekąska", "dietetyczne"],
-                "gra": "Stardew Valley"
+                "tags": ["owoce morza", "napój", "bez glutenu", "przekąska", "dietetyczne"],
+                "gra": "Stardew_Valley"
             },
             {
                 "name": "Pikantny Węgorz",
@@ -85,7 +85,7 @@
                 "przygotowanie": "Upiecz węgorza z ostrą papryką, aby uzyskać pikantne danie.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Spicy_Eel.png",
                 "tags": ["owoce morza", "bez laktozy", "bez orzechów", "kolacja"],
-                "gra": "Stardew Valley"
+                "gra": "Stardew_Valley"
             },
             {
                 "name": "Potrójne Espresso",
@@ -97,7 +97,7 @@
                 "przygotowanie": "Zaparz trzy porcje kawy, aby uzyskać silne espresso.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/3/36/Triple_Shot_Espresso.png",
                 "tags": ["bez laktozy", "bez glutenu", "śniadanie", "napój"],
-                "gra": "Stardew Valley"
+                "gra": "Stardew_Valley"
             },
             {
                 "name": "Obiad Rolnika",
@@ -109,7 +109,7 @@
                 "przygotowanie": "Ugotuj omlet i dodaj pasternak, aby stworzyć sycące danie.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/7/79/Farmer%27s_Lunch.png",
                 "tags": ["obiad", "bez orzechów"],
-                "gra": "Stardew Valley"
+                "gra": "Stardew_Valley"
             }
         ]
     },

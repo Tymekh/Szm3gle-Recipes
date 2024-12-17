@@ -4,7 +4,7 @@ let main = document.getElementsByTagName("main")[0];
 let data;
 let foodList;
 let pastFun = [];
-const pixelGames = ["Stardew_Valley", "Terraria", "Minecraft", "Stardew Valley"]
+const pixelGames = ["Stardew_Valley", "Terraria", "Minecraft"]
 // let current;
  
 async function Get_JSON(url)
@@ -98,7 +98,7 @@ function displayDanie(danie){
  
     // history.replaceState({}, '', 'placeholder');
     // console.log(danie.przygotowanie);
-    main.innerHTML += `<div class='item-food'><img src="${danie.obraz}" class="obraz" style='${pixelGames.includes(danie.gra)  ? 'image-rendering: pixelated;' : ''}'></img><nav class='danie-text-container'><h2>${danie.name}</h2><p>${danie.opis}</p><hr><p><b>Składniki:</b> ${danie.skladniki}</p><hr><p><b>AGD: </b>${danie.AGD}</p><hr><b>Przygotowanie:</b> <br><p>${danie.przygotowanie}</p></nav></div>`
+    main.innerHTML += `<div class='item-food'><img src="${danie.obraz}" class="obraz" style='${pixelGames.includes(danie.gra)  ? 'image-rendering: pixelated;' : ''}'></img><nav class='danie-text-container'><h2>${danie.name}</h2><p>${danie.opis}</p><hr><p><b>Składniki:</b> ${danie.skladniki}</p><hr><p><b>AGD: </b>${danie.AGD}</p><hr><p class='tagi-danie'><b>Tagi: </b>${danie.tags.toString().replaceAll(" ", "&nbsp;").replaceAll(",", " | ")}</p></nav></div>`
     // main.innerHTML += "<div class='item'>"+"<img src='"+danie.obraz+"''>"+danie.name+"</div>";
     pushFront(displayDanie.bind(null, danie));
 }
