@@ -146,7 +146,8 @@ footer{
     height: calc(20vh - 4vw);
     float: left;
     clear: none;
-    /* image-rendering: optimizeQuality; */
+    /* image-rendering: pixelated; */
+/*  /\/\/\/\/\/\/\/\/\/\/\/\/\/\ poprawia pikselowe obrazki, ale nie pikselowe są wtedy brzydkie */
     background-color: beige;
     padding: 1vw;
     border-radius: 1vw;
