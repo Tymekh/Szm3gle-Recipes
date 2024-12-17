@@ -34,7 +34,7 @@
                 "narzedzia": "Kuchenka",
                 "AGD": "",
                 "czas": "",
-                "przygotowanie": "",
+                "przygotowanie": "Usmaż składniki na kuchence, aby stworzyć to wyjątkowe danie.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Lucky_Lunch.png",
                 "tags": ["owoce morza", "bez laktozy", "bez orzechów", "obiad"],
                 "gra": "Stardew Valley"
@@ -46,7 +46,7 @@
                 "narzedzia": "Brak",
                 "AGD": "",
                 "czas": "",
-                "przygotowanie": "",
+                "przygotowanie": "Wymieszaj surowce, aby uzyskać prostą przekąskę.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Field_Snack.png",
                 "tags": ["bez laktozy", "bez glutenu", "przekąska", "dietetyczne"],
                 "gra": "Stardew Valley"
@@ -58,7 +58,7 @@
                 "narzedzia": "Kuchenka",
                 "AGD": "",
                 "czas": "",
-                "przygotowanie": "",
+                "przygotowanie": "Ugotuj ryż, dodaj mango i kokos, aby uzyskać słodkie i kleiste danie.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Mango_Sticky_Rice.png",
                 "tags": ["bez glutenu", "bez orzechów", "deser", "bez laktozy"],
                 "gra": "Stardew Valley"
@@ -70,7 +70,7 @@
                 "narzedzia": "Kuchenka",
                 "AGD": "",
                 "czas": "",
-                "przygotowanie": "",
+                "przygotowanie": "Wymieszaj wszystkie składniki, aby uzyskać świeży koktajl krewetkowy.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/8/8e/Shrimp_Cocktail.png",
                 "tags": ["owoce morza", "bez glutenu", "przekąska", "dietetyczne"],
                 "gra": "Stardew Valley"
@@ -82,7 +82,7 @@
                 "narzedzia": "Kuchenka",
                 "AGD": "",
                 "czas": "",
-                "przygotowanie": "",
+                "przygotowanie": "Upiecz węgorza z ostrą papryką, aby uzyskać pikantne danie.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Spicy_Eel.png",
                 "tags": ["owoce morza", "bez laktozy", "bez orzechów", "kolacja"],
                 "gra": "Stardew Valley"
@@ -94,7 +94,7 @@
                 "narzedzia": "Kuchenka",
                 "AGD": "",
                 "czas": "",
-                "przygotowanie": "",
+                "przygotowanie": "Zaparz trzy porcje kawy, aby uzyskać silne espresso.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/3/36/Triple_Shot_Espresso.png",
                 "tags": ["bez laktozy", "bez glutenu", "śniadanie", "napój"],
                 "gra": "Stardew Valley"
@@ -106,7 +106,7 @@
                 "narzedzia": "Kuchenka",
                 "AGD": "",
                 "czas": "",
-                "przygotowanie": "",
+                "przygotowanie": "Ugotuj omlet i dodaj pasternak, aby stworzyć sycące danie.",
                 "obraz": "https://stardewvalleywiki.com/mediawiki/images/7/79/Farmer%27s_Lunch.png",
                 "tags": ["obiad", "bez orzechów"],
                 "gra": "Stardew Valley"
@@ -551,9 +551,9 @@
             }        
         ]
     },
-    "Animal_Crossing":{
+    "Animal_Crossing": {
         "gra": "Animal Crossing",
-        "icon":"https://www.nintendo.pl/switch/assets/img/acnh/hero_img.jpg",
+        "icon": "https://www.nintendo.pl/switch/assets/img/acnh/hero_img.jpg",
         "dania": [
             {
                 "name": "Poke",
@@ -562,7 +562,7 @@
                 "narzedzia": "-",
                 "AGD": "Kuchenka",
                 "czas": "-",
-                "przygotowanie": "",
+                "przygotowanie": "Podsmaż łososia i dodaj posiekane pomidory, aby stworzyć lekkie danie.",
                 "obraz": "https://dodo.ac/np/images/4/42/Poke_NH_Icon.png",
                 "tags": ["owoce morza", "obiad", "kolacja", "dietetyczne", "bez laktozy", "bez glutenu"],
                 "gra": "Animal_Crossing"
@@ -574,7 +574,7 @@
                 "narzedzia": "-",
                 "AGD": "Kuchenka",
                 "czas": "-",
-                "przygotowanie": "",
+                "przygotowanie": "Zmieszaj mąkę, cukier i dynię, a następnie upiecz w piekarniku.",
                 "obraz": "https://dodo.ac/np/images/b/be/Pumpkin_Cupcakes_NH_Icon.png",
                 "tags": ["deser", "przekąska"],
                 "gra": "Animal_Crossing"
@@ -586,7 +586,7 @@
                 "narzedzia": "-",
                 "AGD": "Kuchenka",
                 "czas": "-",
-                "przygotowanie": "",
+                "przygotowanie": "Ugotuj makaron, a następnie wymieszaj z atramentem kałamarnicy, aby uzyskać ciemny sos.",
                 "obraz": "https://dodo.ac/np/images/6/68/Squid-Ink_Spaghetti_NH_Icon.png",
                 "tags": ["owoce morza", "obiad", "kolacja", "bez laktozy"],
                 "gra": "Animal_Crossing"
@@ -598,7 +598,7 @@
                 "narzedzia": "-",
                 "AGD": "Kuchenka",
                 "czas": "-",
-                "przygotowanie": "",
+                "przygotowanie": "Przygotuj ciasto na naleśniki, usmaż je, a następnie dodaj warzywa jako nadzienie.",
                 "obraz": "https://dodo.ac/np/images/0/0a/Veggie_Crepe_NH_Icon.png",
                 "tags": ["śniadanie", "przekąska", "dietetyczne"],
                 "gra": "Animal_Crossing"
@@ -610,7 +610,7 @@
                 "narzedzia": "-",
                 "AGD": "Kuchenka",
                 "czas": "-",
-                "przygotowanie": "",
+                "przygotowanie": "Upiecz bagel z mąki, a następnie przełóż go wędzonym łososiem.",
                 "obraz": "https://dodo.ac/np/images/a/a7/Salmon_Bagel_Sandwich_NH_Icon.png",
                 "tags": ["owoce morza", "śniadanie", "przekąska", "bez laktozy"],
                 "gra": "Animal_Crossing"
@@ -622,7 +622,7 @@
                 "narzedzia": "-",
                 "AGD": "Kuchenka",
                 "czas": "-",
-                "przygotowanie": "",
+                "przygotowanie": "Obsmaż flądrę w mące na złoty kolor, dodając ulubione przyprawy.",
                 "obraz": "https://dodo.ac/np/images/d/d1/Olive-Flounder_Meuni%C3%A8re_NH_Icon.png",
                 "tags": ["owoce morza", "obiad", "kolacja", "bez laktozy"],
                 "gra": "Animal_Crossing"
@@ -634,7 +634,7 @@
                 "narzedzia": "-",
                 "AGD": "Kuchenka",
                 "czas": "-",
-                "przygotowanie": "",
+                "przygotowanie": "Połącz składniki, aby uzyskać ciasto, a następnie upiecz kruche ciasteczka kokosowe.",
                 "obraz": "https://dodo.ac/np/images/c/c3/Coconut_Cookies_NH_Icon.png",
                 "tags": ["deser", "przekąska"],
                 "gra": "Animal_Crossing"
@@ -646,7 +646,7 @@
                 "narzedzia": "-",
                 "AGD": "Kuchenka",
                 "czas": "-",
-                "przygotowanie": "",
+                "przygotowanie": "Uformuj ciasto na precle, upiecz, a następnie posyp cukrem pudrem.",
                 "obraz": "https://dodo.ac/np/images/9/92/Frosted_Pretzels_NH_Icon.png",
                 "tags": ["przekąska", "deser"],
                 "gra": "Animal_Crossing"
@@ -658,7 +658,7 @@
                 "narzedzia": "-",
                 "AGD": "Kuchenka",
                 "czas": "-",
-                "przygotowanie": "",
+                "przygotowanie": "Grilluj okonia morskiego z dodatkiem świeżych ziół dla uzyskania aromatycznego smaku.",
                 "obraz": "https://dodo.ac/np/images/5/5b/Grilled_Sea_Bass_with_Herbs_NH_Icon.png",
                 "tags": ["owoce morza", "obiad", "kolacja", "bez laktozy", "dietetyczne"],
                 "gra": "Animal_Crossing"
@@ -670,12 +670,12 @@
                 "narzedzia": "-",
                 "AGD": "Kuchenka",
                 "czas": "-",
-                "przygotowanie": "",
+                "przygotowanie": "Wyciśnij sok z pomarańczy, podgrzej go i schłódź, aby uzyskać żelatynowy deser.",
                 "obraz": "https://dodo.ac/np/images/e/e2/Orange_Jelly_NH_Icon.png",
                 "tags": ["deser", "przekąska", "dietetyczne", "bez glutenu", "bez laktozy"],
                 "gra": "Animal_Crossing"
             }
-        ]                
+        ]
     },
     "Genshin_Impact":{
         "gra": "Genshin Impact",
