@@ -39,15 +39,13 @@ aside{
     height: calc(84vh - 0.4vh - 2vw);
     background-color: rgba(257, 247, 247, 0.4);
     margin: 1vw;
-    border: 0.2vh white solid;
-}
+    border: 0.2vh white solid;}
 aside > h1{
     text-align: center;
     background-color: white;
     margin: 0;
     font-size: 3vh;
-    padding: 2vh;
-}
+    padding: 2vh;}
 #wyszukiwanie{
     width: 100%;
 }
@@ -256,8 +254,21 @@ h2{
     margin-top: 2.5vh;
     margin-bottom: 1vh;
 }
-
-
+.pusty-wynik{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 3vh;
+    height: 60vh;
+} 
+.pusty-wynik img{
+    max-height: 50vh;
+}
+.pusty-wynik p{
+    padding-bottom: 5vh;
+}
 
 
 

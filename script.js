@@ -141,18 +141,32 @@ function displayTags(){
     document.body.style.overflow = "auto";
     updateTitle("Wyszukiwanie");
  
-    search(tags, games).forEach(ele => {
-        let opis = ele.opis;
-        if(opis.length > 157){
-            opis = opis.slice(0, 157);
-            opis += "...";
-        }
-   
-        let eleId = foodList.findIndex(e => e === ele)
-        console.log(pixelGames.includes(ele.gra))
-        main.innerHTML += `<div class='item' onclick="displayDanie('${eleId}')"><img src="${ele.obraz}" style='${pixelGames.includes(ele.gra)  ? 'image-rendering: pixelated;' : ''}'></img><nav class='item-text-container'><h2>${ele.name}</h2><p>${opis}</p></nav></div>`
-    });
+
+    if(search(tags,games).length==0){
+        main.innerHTML +=   `<div class='pusty-wynik'>
+                                <p>Nie znaleziono żadnych wyników</p><img src="./obrazy/pusty.png" alt="pusty wynik">
+                            </div>`;
+        main.style.paddingTop ="2vh";
+        main.style.paddingBottom ="0";
+        main.style.minHeight="82vh"
+
+
+       
+    }else{
+        search(tags, games).forEach(ele => {
+            let opis = ele.opis;
+            if(opis.length > 157){
+                opis = opis.slice(0, 157);
+                opis += "...";
+            }
+       
+            let eleId = foodList.findIndex(e => e === ele)
+            console.log(pixelGames.includes(ele.gra))
+            main.innerHTML += `<div class='item' onclick="displayDanie('${eleId}')"><img src="${ele.obraz}" style='${pixelGames.includes(ele.gra)  ? 'image-rendering: pixelated;' : ''}'></img><nav class='item-text-container'><h2>${ele.name}</h2><p>${opis}</p></nav></div>`
+        });
+    }
     pushFront(displayTags.bind(null));
+    console.log(search(tags,games));
 }
  
  
